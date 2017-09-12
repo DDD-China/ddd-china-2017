@@ -1,0 +1,242 @@
+//out: main.css
+//main: main.less
+
+html body {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  min-width: 1080px;
+}
+
+ul li ol {
+  display: inline-block;
+}
+
+.navbar {
+  width: 100%;
+  height: 45px;
+  background-color: white;
+}
+
+.main-container {}
+
+.grid-wrapper {
+  display: block;
+}
+
+.grid {}
+
+.grid-cell {}
+
+.grid-space {
+  padding: 60px 20px;
+}
+
+.grid-grey {
+  background-color: #f0f0f0;
+}
+
+.header_wrapper {
+  padding-bottom: 8px;
+  text-decoration: none;
+}
+
+.header_logo {
+  margin: 8px 0 0 4%;
+  float: left;
+}
+
+.header_logo > img {
+  width: 130px;
+}
+
+.header_tabs {
+  margin: auto 0;
+}
+
+.menu-items {
+  height: 100%;
+  float: left;
+  clear: none;
+  padding-left: 20px;
+  margin: auto 0;
+}
+
+.menu-item {
+  display: inline-block;
+  padding: 11px 15px 12px;
+}
+
+.menu-item > a {
+  text-decoration: none;
+  text-align: center;
+  color: grey;
+}
+
+#topic-gathering > a {
+  .color-text-white
+}
+
+#booking-ticket {
+  display: block;
+  height: 100%;
+  float: right;
+  background-color: grey;
+  padding: 10px 20px 11px;
+}
+
+#booking-ticket > a {
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.centered {
+  text-align: center;
+}
+
+.title {
+  margin: 0;
+  font-size: 50px;
+}
+
+.words {
+  margin-top: 20px;
+}
+
+.word {
+  font-size: 20px;
+}
+
+.hero-banner {
+  width: 100%;
+}
+
+.hero-banner > img {
+  width: 100%;
+  height: auto;
+}
+
+.important-info {
+  color: red;
+}
+
+.block {
+  display: block;
+}
+
+.button {
+  display: inline-block;
+  text-decoration: none;
+  margin: 2px;
+  padding: 15px 70px;
+  font-size: 23px;
+  border-radius: 4px;
+}
+
+.color-black {
+  background-color: black;
+}
+
+.color-red {
+  background-color: red;
+}
+
+.color-text-white {
+  color: white;
+}
+
+.color-border-white {
+  border: solid 2px white;
+}
+
+.color-border-black {
+  border: solid 2px black;
+}
+
+.color-border-none {
+  border: none;
+  outline: none;
+}
+
+.topic-pics {
+  display: block;
+  margin: 40px auto;
+}
+
+.topic-pic {
+  display: inline-block;
+  margin: auto 60px;
+  background-repeat: no-repeat;
+}
+
+.two-topic-pic {
+  margin: auto 30px;
+  padding: 30px 113px;
+  background-size: cover;
+
+  & > .words > .word {
+    font-size: 35px;
+  }
+}
+
+#two-topic-first {
+  background-image: url("../resource/fabric-2642229-01.jpg");
+}
+
+#two-topic-second {
+  background-image: url("../resource/fabric-2642229-02.jpg");
+}
+
+#topic-uploading {
+  background-image: url("../resource/topic-banner.png");
+
+  & .words {
+    margin: 30px auto;
+  }
+}
+
+#introduction {
+  & .words {
+    display: inline-block;
+
+    & .word {
+      text-align: left;
+    }
+  }
+}
+
+.update {
+  margin: 40px auto;
+}
+
+.subscribe {
+  display: inline-block;
+  border-radius: 2px;
+  margin-top: 40px;
+
+  & > input {
+    margin: 0 15px;
+    font-size: 25px;
+    letter-spacing: 2px;
+  }
+
+  & > .button {
+    padding: 15px 40px;
+  }
+}
+
+.footer {
+  position: relative;
+  margin-bottom: 0;
+  height: 75px;
+
+  & .words {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+
+    & .word {
+      font-size: 20px;
+    }
+  }
+}
