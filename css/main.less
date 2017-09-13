@@ -10,7 +10,8 @@ html body {
 
 @import url(https://fonts.lug.ustc.edu.cn/earlyaccess/notosanstc.css);
 * {
-    font-family: 'Noto Sans TC';
+    font-family: "Noto Sans Thin", "Noto Sans CJK SC Thin", sans-serif;
+    font-weight: 300;
 }
 
 ul li ol {
@@ -20,7 +21,6 @@ ul li ol {
 .navbar {
   position: fixed;
   width: 100%;
-  height: 47px;
   background-color: white;
 }
 
@@ -30,7 +30,8 @@ ul li ol {
   display: block;
 }
 
-.grid {}
+.grid {
+}
 
 .grid-cell {}
 
@@ -102,7 +103,7 @@ ul li ol {
 
 .title {
   margin: 0;
-  font-size: 50px;
+  font-size: 36px;
 }
 
 .words {
@@ -110,12 +111,12 @@ ul li ol {
 }
 
 .word {
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .hero-banner {
   width: 100%;
-  padding-top: 45px;
+  padding-top: 44px;
 }
 
 .hero-banner > img {
@@ -172,17 +173,17 @@ ul li ol {
 
 .topic-pic {
   display: inline-block;
-  margin: auto 60px;
+  margin: auto 30px;
   background-repeat: no-repeat;
 }
 
 .two-topic-pic {
   margin: auto 30px;
-  padding: 30px 113px;
+  padding: 25px 80px;
   background-size: cover;
 
   & > .words > .word {
-    font-size: 35px;
+    font-size: 30px;
   }
 }
 
@@ -224,10 +225,10 @@ ul li ol {
   & > input {
     margin: 0 15px;
     font-size: 25px;
-    letter-spacing: 2px;
   }
 
   & > .button {
+    outline: none;
     padding: 15px 40px;
   }
 }

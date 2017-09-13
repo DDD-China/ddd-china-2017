@@ -6,7 +6,8 @@ html body {
   min-width: 1080px;
 }
 * {
-  font-family: 'Noto Sans TC';
+  font-family: "Noto Sans Thin", "Noto Sans CJK SC Thin", sans-serif;
+  font-weight: 300;
 }
 ul li ol {
   display: inline-block;
@@ -14,7 +15,6 @@ ul li ol {
 .navbar {
   position: fixed;
   width: 100%;
-  height: 47px;
   background-color: white;
 }
 .grid-wrapper {
@@ -75,17 +75,17 @@ ul li ol {
 }
 .title {
   margin: 0;
-  font-size: 50px;
+  font-size: 36px;
 }
 .words {
   margin-top: 20px;
 }
 .word {
-  font-size: 20px;
+  font-size: 18px;
 }
 .hero-banner {
   width: 100%;
-  padding-top: 45px;
+  padding-top: 44px;
 }
 .hero-banner > img {
   width: 100%;
@@ -130,16 +130,16 @@ ul li ol {
 }
 .topic-pic {
   display: inline-block;
-  margin: auto 60px;
+  margin: auto 30px;
   background-repeat: no-repeat;
 }
 .two-topic-pic {
   margin: auto 30px;
-  padding: 30px 113px;
+  padding: 25px 80px;
   background-size: cover;
 }
 .two-topic-pic > .words > .word {
-  font-size: 35px;
+  font-size: 30px;
 }
 #two-topic-first {
   background-image: url("../resource/fabric-2642229-01.jpg");
@@ -170,9 +170,9 @@ ul li ol {
 .subscribe > input {
   margin: 0 15px;
   font-size: 25px;
-  letter-spacing: 2px;
 }
 .subscribe > .button {
+  outline: none;
   padding: 15px 40px;
 }
 .footer {
