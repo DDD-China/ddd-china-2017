@@ -1,8 +1,12 @@
+@import url(https://fonts.lug.ustc.edu.cn/earlyaccess/notosanstc.css);
 html body {
   padding: 0;
   margin: 0;
   width: 100%;
   min-width: 1080px;
+}
+* {
+  font-family: 'Noto Sans TC';
 }
 ul li ol {
   display: inline-block;
