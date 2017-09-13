@@ -22,6 +22,7 @@ ul li ol {
   position: fixed;
   width: 100%;
   background-color: white;
+  z-index: 1001;
 }
 
 .main-container {}
@@ -217,7 +218,8 @@ ul li ol {
   margin: 40px auto;
 }
 
-.subscribe {
+.subscription {
+  position: relative;
   display: inline-block;
   border-radius: 2px;
   margin-top: 40px;
@@ -231,6 +233,13 @@ ul li ol {
     outline: none;
     padding: 15px 40px;
   }
+}
+
+.info-message {
+  display: none;
+  position: absolute;
+  top: 70px;
+  left: 30px;
 }
 
 .footer {

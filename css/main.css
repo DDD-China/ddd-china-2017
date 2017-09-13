@@ -16,6 +16,7 @@ ul li ol {
   position: fixed;
   width: 100%;
   background-color: white;
+  z-index: 1001;
 }
 .grid-wrapper {
   display: block;
@@ -162,18 +163,25 @@ ul li ol {
 .update {
   margin: 40px auto;
 }
-.subscribe {
+.subscription {
+  position: relative;
   display: inline-block;
   border-radius: 2px;
   margin-top: 40px;
 }
-.subscribe > input {
+.subscription > input {
   margin: 0 15px;
   font-size: 25px;
 }
-.subscribe > .button {
+.subscription > .button {
   outline: none;
   padding: 15px 40px;
+}
+.info-message {
+  display: none;
+  position: absolute;
+  top: 70px;
+  left: 30px;
 }
 .footer {
   position: relative;

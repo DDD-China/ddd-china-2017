@@ -2,165 +2,167 @@
 <html>
 
 <head>
-  <meta charset="utf-8">
-  <title>DDD China Homepage</title>
-  <link rel="stylesheet" href="./css/main.css">
-  <script type="text/javascript" src="./js/main.js"></script>
+    <meta charset="utf-8">
+    <title>DDD China Homepage</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <script type="text/javascript" src="./js/jquery-3.2.1.min.js"></script>
 </head>
 
 <body>
-  <div class="grid-wrapper navbar">
+<div class="grid-wrapper navbar">
     <div class="grid">
-      <div class="grid-cell">
-        <div class="header_wrapper">
-          <a class="header_logo" href="/"><img src="./resource/DDD-logo-03.png" alt="DDD-logo"></a>
-          <div class="header_tabs">
-            <ul class="menu-items">
-              <li class="menu-item"><a href="#">专题演讲及日程安排</a></li>
-              <li class="menu-item"><a href="#">讲师介绍</a></li>
-              <li class="menu-item"><a href="#introduction">大会简介</a></li>
-              <li class="menu-item"><a href="#">合作伙伴</a></li>
-              <li class="menu-item"><a href="#">会议地点</a></li>
-              <li class="menu-item"><a href="#">工作坊</a></li>
-              <li class="menu-item color-red" id="topic-gathering"><a class="color-text-white" href="#">提案征集</a></li>
-            </ul>
-          </div>
-          <div class="" id="booking-ticket">
-            <a class="color-text-white" href="#">购买门票</a>
-          </div>
+        <div class="grid-cell">
+            <div class="header_wrapper">
+                <a class="header_logo" href="/"><img src="./resource/DDD-logo-03.png" alt="DDD-logo"></a>
+                <div class="header_tabs">
+                    <ul class="menu-items">
+                        <li class="menu-item"><a href="#">专题演讲及日程安排</a></li>
+                        <li class="menu-item"><a href="#">讲师介绍</a></li>
+                        <li class="menu-item"><a href="#introduction">大会简介</a></li>
+                        <li class="menu-item"><a href="#">合作伙伴</a></li>
+                        <li class="menu-item"><a href="#">会议地点</a></li>
+                        <li class="menu-item"><a href="#">工作坊</a></li>
+                        <li class="menu-item color-red" id="topic-gathering"><a class="color-text-white"
+                                                                                href="#">提案征集</a></li>
+                    </ul>
+                </div>
+                <div class="" id="booking-ticket">
+                    <a class="color-text-white" href="#">购买门票</a>
+                </div>
+            </div>
         </div>
-      </div>
     </div>
-  </div>
+</div>
 
-  <div class="grid-wrapper">
+<div class="grid-wrapper">
     <div class="hero-banner">
-      <img src="./resource/banner-03.png" alt="Topic pic">
+        <img src="./resource/banner-03.png" alt="Topic pic">
     </div>
-  </div>
-  <div class="grid-wrapper grid-space">
+</div>
+<div class="grid-wrapper grid-space">
     <div class="grid centered">
-      <div class="grid-cell">
-        <p class="title">提案征集</p>
-        <div class="words">
-          <p class="word">2017年12月8日、9日，在北京将举办中国首届领域驱动设计相关大会——2017领
-            <br>域驱动设计中国峰会（2017 DDD China Conference）。
-            <br>现向国内同行和领域设计（DDD）的实践者们广泛征集话题。</p>
-        </div>
-        <div class="words">
-          <p class="word important-info">话题提交截止时间</p>
-        </div>
-        <div class="block">
-          <p class="button color-black color-text-white">2017年9月30日17:00</p>
-        </div>
-        <div class="words">
-          <p class="word">我们将在10月15日之前完成话题评审并给予反馈，热忱地期待您的参与！</p>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="grid-wrapper grid-grey grid-space">
-    <div class="grid centered">
-      <div class="grid-cell">
-        <p class="title">四大会议主题</p>
-        <div class="topic-pics">
-          <div class="topic-pic">
-            <img src="./resource/Group9.png" alt="">
-            <p class="word wide-word">领域驱动设计<br/>与企业架构</p>
-          </div>
-          <div class="topic-pic">
-            <img src="./resource/Group13.png" alt="">
-            <p class="word wide-word">领域驱动设计与<br>演进式架构及微服务</p>
-          </div>
-          <div class="topic-pic">
-            <img src="./resource/Group12.png" alt="">
-            <p class="word wide-word">领域统一语言<br>的实践模式</p>
-          </div>
-          <div class="topic-pic">
-            <img src="./resource/Group10.png" alt="">
-            <p class="word wide-word">领域驱动设计与<br>组织治理</p>
-          </div>
-        </div>
-        <div class="words">
-          <p class="word">将设置四个主题，每个话题控制在<span class="important-info">45分钟</span>之内。</p>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="grid-wrapper grid-space">
-    <div class="grid centered">
-      <div class="grid-cell">
-        <p class="title">两大专题讨论区</p>
-        <div class="topic-pics">
-          <div class="topic-pic two-topic-pic" id="two-topic-first">
+        <div class="grid-cell">
+            <p class="title">提案征集</p>
             <div class="words">
-              <p class="word color-text-white">领域驱动设计<br>的代码实现</p>
+                <p class="word">2017年12月8日、9日，在北京将举办中国首届领域驱动设计相关大会——2017领
+                    <br>域驱动设计中国峰会（2017 DDD China Conference）。
+                    <br>现向国内同行和领域设计（DDD）的实践者们广泛征集话题。</p>
             </div>
-          </div>
-          <div class="topic-pic two-topic-pic" id="two-topic-second">
             <div class="words">
-              <p class="word color-text-white">领域驱动设计<br>与函数式编程</p>
+                <p class="word important-info">话题提交截止时间</p>
             </div>
-          </div>
+            <div class="block">
+                <p class="button color-black color-text-white">2017年9月30日17:00</p>
+            </div>
+            <div class="words">
+                <p class="word">我们将在10月15日之前完成话题评审并给予反馈，热忱地期待您的参与！</p>
+            </div>
         </div>
-        <div class="words">
-          <p class="word">两个专题讨论区（Unconference），每个话题控制在<span class="important-info">10分钟</span>之内。</p>
-        </div>
-      </div>
     </div>
-  </div>
-  <div class="grid-wrapper grid-space" id="topic-uploading">
+</div>
+<div class="grid-wrapper grid-grey grid-space">
     <div class="grid centered">
-      <div class="grid-cell color-text-white">
-        <p class="title">话题提交通道</p>
-        <div class="words">
-          <p class="word">对于提交的话题我们会尽快审核评定，针对筛选通过的话题，无论你是新的演讲者或是有经验
-            <br>的演讲者，我们都会对你提交的话题及演讲给予充分的支持和帮助，并最终完善。</p>
+        <div class="grid-cell">
+            <p class="title">四大会议主题</p>
+            <div class="topic-pics">
+                <div class="topic-pic">
+                    <img src="./resource/Group9.png" alt="">
+                    <p class="word wide-word">领域驱动设计<br/>与企业架构</p>
+                </div>
+                <div class="topic-pic">
+                    <img src="./resource/Group13.png" alt="">
+                    <p class="word wide-word">领域驱动设计与<br>演进式架构及微服务</p>
+                </div>
+                <div class="topic-pic">
+                    <img src="./resource/Group12.png" alt="">
+                    <p class="word wide-word">领域统一语言<br>的实践模式</p>
+                </div>
+                <div class="topic-pic">
+                    <img src="./resource/Group10.png" alt="">
+                    <p class="word wide-word">领域驱动设计与<br>组织治理</p>
+                </div>
+            </div>
+            <div class="words">
+                <p class="word">将设置四个主题，每个话题控制在<span class="important-info">45分钟</span>之内。</p>
+            </div>
         </div>
-        <div class="block">
-          <a class="button color-black color-text-white color-border-white" href="#">点击提交</a>
-        </div>
-        <div class="words">
-          <p class="word">需要帮助？请联系xhai@thoughtworks.com</p>
-        </div>
-      </div>
     </div>
-  </div>
-  <div class="grid-wrapper grid-space" id="introduction">
+</div>
+<div class="grid-wrapper grid-space">
     <div class="grid centered">
-      <div class="grid-cell">
-        <p class="title">大会简介</p>
-        <div class="words">
-          <p class="word">2003年，Domain Driven Design 一书面世。这一架构思想深深的影响了过去15年软件行业的架构
-            <br>理论和实践体系的发展路径。依赖反转、洋葱圈架构、六边形架构、CQRS架构、EDA架构、到
-            <br>Uncle Bob提出的整洁架构原则、以及2014年Martin Fowler和James Lewis提出的微服务架构风格，
-            <br>这些不同的架构思想的出现，都显示出领域驱动设计（DDD）的思想越来越深入这个行业，也越
-            <br>来越深入产品以及企业IT架构设计本身。
-          </p>
-          <p class="word">在国内，随着微服务的火热，领域驱动设计（DDD）的架构思想也越来越被企业和研发团队所重视。
-            <br>一个典型的例子是，几乎每一个在尝试微服务的团队和产品，都从领域驱动设计（DDD）的实践当中
-            <br>受益。作为国内领域驱动设计（DDD）思想和实践的领军者，ThoughtWorks的架构咨询师们希望和
-            <br>社区的合作伙伴一起，组织一次领域驱动设计的峰会，从而创建一个让国内的领域驱动设计（DDD）
-            <br>实践者们互相交流、分享自己团队的成功经验的机会。我们也希望通过这个大会，使得领域驱动设计
-            <br>（DDD）的架构思想能够在国内被更多人所认知，从而形成更大的规模效应。
-          </p>
+        <div class="grid-cell">
+            <p class="title">两大专题讨论区</p>
+            <div class="topic-pics">
+                <div class="topic-pic two-topic-pic" id="two-topic-first">
+                    <div class="words">
+                        <p class="word color-text-white">领域驱动设计<br>的代码实现</p>
+                    </div>
+                </div>
+                <div class="topic-pic two-topic-pic" id="two-topic-second">
+                    <div class="words">
+                        <p class="word color-text-white">领域驱动设计<br>与函数式编程</p>
+                    </div>
+                </div>
+            </div>
+            <div class="words">
+                <p class="word">两个专题讨论区（Unconference），每个话题控制在<span class="important-info">10分钟</span>之内。</p>
+            </div>
         </div>
-        <div class="update">
-          <p class="title">希望收到大会进展更新？</p>
-          <form class="subscribe color-border-black">
-              <input class="color-border-none" type="text" name="" value="" required placeholder="Your E-mail">
-              <button class="button color-black color-text-white" type="button" name="subscribe">SUBSCRIBE</button>
-          </div>
-        </div>
-      </div>
     </div>
-  </div>
+</div>
+<div class="grid-wrapper grid-space" id="topic-uploading">
+    <div class="grid centered">
+        <div class="grid-cell color-text-white">
+            <p class="title">话题提交通道</p>
+            <div class="words">
+                <p class="word">对于提交的话题我们会尽快审核评定，针对筛选通过的话题，无论你是新的演讲者或是有经验
+                    <br>的演讲者，我们都会对你提交的话题及演讲给予充分的支持和帮助，并最终完善。</p>
+            </div>
+            <div class="block">
+                <a class="button color-black color-text-white color-border-white" href="#">点击提交</a>
+            </div>
+            <div class="words">
+                <p class="word">需要帮助？请联系xhai@thoughtworks.com</p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="grid-wrapper grid-space" id="introduction">
+    <div class="grid centered">
+        <div class="grid-cell">
+            <p class="title">大会简介</p>
+            <div class="words">
+                <p class="word">2003年，Domain Driven Design 一书面世。这一架构思想深深的影响了过去15年软件行业的架构
+                    <br>理论和实践体系的发展路径。依赖反转、洋葱圈架构、六边形架构、CQRS架构、EDA架构、到
+                    <br>Uncle Bob提出的整洁架构原则、以及2014年Martin Fowler和James Lewis提出的微服务架构风格，
+                    <br>这些不同的架构思想的出现，都显示出领域驱动设计（DDD）的思想越来越深入这个行业，也越
+                    <br>来越深入产品以及企业IT架构设计本身。
+                </p>
+                <p class="word">在国内，随着微服务的火热，领域驱动设计（DDD）的架构思想也越来越被企业和研发团队所重视。
+                    <br>一个典型的例子是，几乎每一个在尝试微服务的团队和产品，都从领域驱动设计（DDD）的实践当中
+                    <br>受益。作为国内领域驱动设计（DDD）思想和实践的领军者，ThoughtWorks的架构咨询师们希望和
+                    <br>社区的合作伙伴一起，组织一次领域驱动设计的峰会，从而创建一个让国内的领域驱动设计（DDD）
+                    <br>实践者们互相交流、分享自己团队的成功经验的机会。我们也希望通过这个大会，使得领域驱动设计
+                    <br>（DDD）的架构思想能够在国内被更多人所认知，从而形成更大的规模效应。
+                </p>
+            </div>
+            <div class="update">
+                <p class="title">希望收到大会进展更新？</p>
+                <form class="subscription color-border-black">
+                    <input class="color-border-none" type="text" name="email" value="" required placeholder="Your E-mail">
+                    <button class="button color-black color-text-white" type="submit" name="subscribe">SUBSCRIBE</button>
+                    <div class="info-message"></div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
 
-  <div class="grid-wrapper footer color-black centered">
+<div class="grid-wrapper footer color-black centered">
     <div class="words">
-      <p class="word color-text-white">@ by ThoughtWorks 中国，2017</p>
+        <p class="word color-text-white">@ by ThoughtWorks 中国，2017</p>
     </div>
-  </div>
+</div>
 </body>
-
+<script type="text/javascript" src="./js/validate.js"></script>
 </html>
