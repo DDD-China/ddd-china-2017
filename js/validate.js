@@ -32,15 +32,13 @@ $('form.subscription').on('submit', function () {
         var email_addr = $('form.subscription').find('input[name="email"]').val();
         $.ajax({
             type: "POST",
-            url: "https://jinshuju.net/api/v1/forms/61fjEJ",
+            url: "https://jinshuju.net/api/v1/forms/dQk75z",
             contentType: "application/json",
             headers: {
-                "Authorization": "Basic " + btoa("jLb8VkGuDoC8wvbuTkdBOQ:Mgvm_A2YgAZuM5RFvknZiA")
+                "Authorization": "Basic " + btoa("35OgObARXZXLVLmwAW_Vyw:hdBnguSWUqmvE4oyzn_66A")
             },
             data: JSON.stringify({
-                "field_1": email_addr,
-                "field_2": "lc",
-                "field_3": "tw"
+                "field_8": email_addr,
             }),
             success: function () {
                 show_form_successmessage('form.subscription');
