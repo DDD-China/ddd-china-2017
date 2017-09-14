@@ -1,11 +1,10 @@
 pages:
   stage: deploy
   script:
-  - mkdir .public
-  - cp -r * .public
-  - mv .public public
+  - mkdir newPublicFolder
+  - mv webContent/* newPublicFolder
   artifacts:
     paths:
-    - public
+    - newPublicFolder
   only:
   - master
