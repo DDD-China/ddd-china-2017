@@ -2,7 +2,6 @@
 html body {
   padding: 0;
   margin: 0;
-  width: 100%;
   min-width: 1080px;
 }
 * {
@@ -17,12 +16,13 @@ ul li ol {
   width: 100%;
   background-color: white;
   z-index: 1001;
+  min-width: 1080px;
 }
 .grid-wrapper {
   display: block;
 }
 .grid-space {
-  padding: 60px 20px;
+  padding: 60px 80px;
 }
 .grid-grey {
   background-color: #f0f0f0;
@@ -195,4 +195,18 @@ ul li ol {
 }
 .footer .words .word {
   font-size: 20px;
+}
+#hook_box {
+  position: fixed;
+  height: 180px;
+  width: 400px;
+  top: 50%;
+  left: 50%;
+  margin-top: -90px;
+  margin-left: -200px;
+  z-index: 1002;
+  display: none;
+  padding: 5px 15px;
+  background-color: white;
+  border: solid 2px black;
 }

@@ -18,10 +18,6 @@ function show_form_errmessage(form_name) {
     show_info_message(form_name, "<p>Sorry, please check your email again.</p>");
 }
 
-function show_form_successmessage(form_name) {
-    show_info_message(form_name, "<p>Thank you, you have subscribed successfully.</p>");
-}
-
 function show_form_wrongmessage(form_name) {
     show_info_message(form_name, "<p>There is something wrong, maybe you can try another email.</p>");
 }
@@ -41,7 +37,8 @@ $('form.subscription').on('submit', function () {
                 "field_8": email_addr,
             }),
             success: function () {
-                show_form_successmessage('form.subscription');
+                show_success_box();
+                clean_email_field();
             },
             error: function () {
                 show_form_wrongmessage('form.subscription');
@@ -53,3 +50,14 @@ $('form.subscription').on('submit', function () {
 $('form.subscription').find('input').click(function () {
     $('form.subscription').find('.info-message').hide();
 });
+
+function clean_email_field() {
+    $('form.subscription').find('input[name="email"]').val('');
+}
+
+function show_success_box() {
+    $('#hook_box').show();
+    setTimeout(function () {
+        $('#hook_box').hide();
+    }, 2000);
+}
