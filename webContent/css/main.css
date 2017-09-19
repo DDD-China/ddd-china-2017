@@ -71,9 +71,6 @@ ul li ol {
   text-decoration: none;
   font-size: 17px;
 }
-.centered {
-  text-align: center;
-}
 .title {
   margin: 0;
   font-size: 36px;
@@ -107,25 +104,6 @@ ul li ol {
   padding: 15px 70px;
   font-size: 23px;
   border-radius: 4px;
-}
-.color-black {
-  background-color: black;
-}
-.color-red {
-  background-color: red;
-}
-.color-text-white {
-  color: white;
-}
-.color-border-white {
-  border: solid 2px white;
-}
-.color-border-black {
-  border: solid 2px black;
-}
-.color-border-none {
-  border: none;
-  outline: none;
 }
 .topic-pics {
   display: block;
@@ -211,4 +189,32 @@ ul li ol {
   padding: 5px 15px;
   background-color: white;
   border: solid 2px black;
+}
+.centered {
+  text-align: center;
+}
+.color-black {
+  background-color: black;
+}
+.color-red {
+  background-color: red;
+}
+.color-text-white {
+  color: white;
+}
+.color-text-red {
+  color: red;
+}
+.color-border-white {
+  border: solid 2px white;
+}
+.color-border-black {
+  border: solid 2px black;
+}
+.color-border-none {
+  border: none;
+  outline: none;
+}
+.unclickable {
+  cursor: not-allowed;
 }

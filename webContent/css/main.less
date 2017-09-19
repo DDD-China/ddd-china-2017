@@ -9,8 +9,8 @@ html body {
 
 @import url(https://fonts.lug.ustc.edu.cn/earlyaccess/notosanstc.css);
 * {
-    font-family: "Noto Sans Thin", "Noto Sans CJK SC Thin", sans-serif;
-    font-weight: 300;
+  font-family: "Noto Sans Thin", "Noto Sans CJK SC Thin", sans-serif;
+  font-weight: 300;
 }
 
 ul li ol {
@@ -25,15 +25,18 @@ ul li ol {
   min-width: 1080px;
 }
 
-.main-container {}
+.main-container {
+}
 
 .grid-wrapper {
   display: block;
 }
 
-.grid {}
+.grid {
+}
 
-.grid-cell {}
+.grid-cell {
+}
 
 .grid-space {
   padding: 60px 80px;
@@ -97,10 +100,6 @@ ul li ol {
   font-size: 17px;
 }
 
-.centered {
-  text-align: center;
-}
-
 .title {
   margin: 0;
   font-size: 36px;
@@ -127,7 +126,7 @@ ul li ol {
 }
 
 .important-info {
-  color: red;
+  .color-text-red
 }
 
 .block {
@@ -141,31 +140,6 @@ ul li ol {
   padding: 15px 70px;
   font-size: 23px;
   border-radius: 4px;
-}
-
-.color-black {
-  background-color: black;
-}
-
-.color-red {
-  background-color: red;
-}
-
-.color-text-white {
-  color: white;
-}
-
-.color-border-white {
-  border: solid 2px white;
-}
-
-.color-border-black {
-  border: solid 2px black;
-}
-
-.color-border-none {
-  border: none;
-  outline: none;
 }
 
 .topic-pics {
@@ -272,4 +246,42 @@ ul li ol {
   padding: 5px 15px;
   background-color: white;
   .color-border-black;
+}
+
+// Common used
+.centered {
+  text-align: center;
+}
+
+.color-black {
+  background-color: black;
+}
+
+.color-red {
+  background-color: red;
+}
+
+.color-text-white {
+  color: white;
+}
+
+.color-text-red {
+  color: red;
+}
+
+.color-border-white {
+  border: solid 2px white;
+}
+
+.color-border-black {
+  border: solid 2px black;
+}
+
+.color-border-none {
+  border: none;
+  outline: none;
+}
+
+.unclickable {
+  cursor: not-allowed;
 }
