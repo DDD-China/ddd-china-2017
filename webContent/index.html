@@ -34,8 +34,11 @@
 
 <div class="grid-wrapper">
     <div class="grid centered">
-        <div class="grid-cell color-text-white">
-            <span class="important-info">This is for booking tickes.</span>
+        <div class="grid-cell top-banner">
+            <img src="resource/Banner-Top.png" alt="DDD-background">
+            <div class="block">
+                <a class="button color-black color-text-white color-border-white" href="#">购买门票</a>
+            </div>
         </div>
     </div>
 </div>
@@ -81,6 +84,9 @@
     </div>
 </div>
     </div>
+    <div>
+        <a href="#" class="button color-black color-text-white">点击查看日程安排</a>
+    </div>
 </div>
 </div>
 
@@ -88,8 +94,9 @@
     <div class="grid centered">
     <div class="grid-cell color-text-white">
         <p class="title">话题提交通道</p>
-        <div class="words">
-            <p class="word">新的文字内容</p>
+        <div class="words inner-grid-space">
+            <p class="word">现面向国内同行和领域驱动设计（DDD）的实践者们广泛征集话题，
+                希望DDD的实践者们踊跃提交您的话题，请通过话题提交通道提交您的话题简介和个人简介。</p>
         </div>
         <div class="block">
             <a class="button color-black color-text-white color-border-white" href="#">点击提交</a>
@@ -106,7 +113,7 @@
     <div class="grid centered">
         <p class="title">大会简介</p>
 <div class="words">
-    <p class="word text-left">2003年，Domain Driven Design 一书面世。这一架构思想深深的影响了过去15年软件行业的架构理论和实践
+    <p class="word text-left">2003年，<i>Domain Driven Design</i> 一书面世。这一架构思想深深的影响了过去15年软件行业的架构理论和实践
         体系的发展路径。依赖反转、洋葱圈架构、六边形架构、CQRS架构、EDA架构、到Uncle Bob提出的整洁架构原则、以及2014年
         Martin Fowler和James Lewis提出的微服务架构风格，这些不同的架构思想的出现，都显示出领域驱动设计（DDD）的思想越
         来越深入这个行业，也越来越深入产品以及企业IT架构设计本身。
@@ -119,7 +126,7 @@
         （DDD）的架构思想能够在国内被更多人所认知，从而形成更大的规模效应。
     </p>
     <p class="word text-left">
-        一段新的内容。
+        我们决定将于2017年12月8、9日，在北京举行2017领域驱动设计中国峰会（2017 DDD China Conference）。我们热忱地期待您的参与!
     </p>
 </div>
     </div>
@@ -179,18 +186,19 @@
 <div class="grid centered">
     <div class="grid-cell centered">
         <p class="title">会议地点及交通指南</p>
-        <div class="inner-grid-space">
-            <div id="container" tabindex="0"></div>
+        <div class="inner-grid-space flexbox-row transportation-guide">
+            <div class="flexbox-item"><img src="./resource/beijing-office.jpeg" alt="国华投资大厦"></div>
+            <div class="flexbox-item" id="container" tabindex="0"></div>
         </div>
         <div class="inner-grid-space">
             <div class="words">
                 <p class="word text-left">
-                    <b>会议地点</b><br>
+                    <span class="inline-title">会议地点</span><br>
                     思特沃克软件技术(北京)有限公司<br>
                     北京市东城区东直门南大街3号国华投资大厦1105室，100007
                 </p>
                 <p class="word text-left">
-                    <b>交通指南</b><br>
+                    <span class="inline-title">交通指南</span><br>
                     北京市东城区东直门南大街3号国华投资大厦1105室，100007
                 </p>
             </div>
@@ -199,9 +207,21 @@
 </div>
 </div>
 
-<div class="grid-wrapper footer color-black centered">
-    <div class="words">
-        <p class="word color-text-white">@ by ThoughtWorks 中国，2017</p>
+<div class="grid-wrapper footer-additional color-black color-text-white">
+    <div class="grid-cell" id="contact-us">
+        <p class="sub-title">联系我们</p>
+        <div class="words">
+            <p class="in-paragraph-word">购票热线</p>
+            <p class="in-paragraph-word">议题提交: speakers@ddd-china.com</p>
+            <p class="in-paragraph-word">合作咨询: info@ddd-china.com</p>
+            <p class="in-paragraph-word">购票咨询: tickets@ddd-china.com</p>
+        </div>
+    </div>
+
+    <div class="grid-cell centered">
+        <div class="words">
+            <p class="word word-small color-text-white">@ by ThoughtWorks 中国，2017</p>
+        </div>
     </div>
 </div>
 

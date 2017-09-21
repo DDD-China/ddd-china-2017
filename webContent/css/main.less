@@ -17,6 +17,10 @@ ul li ol {
   display: inline-block;
 }
 
+a {
+  .no-text-decoration
+}
+
 .navbar {
   position: fixed;
   width: 100%;
@@ -56,8 +60,8 @@ ul li ol {
 }
 
 .header_wrapper {
+  .no-text-decoration;
   padding-bottom: 8px;
-  text-decoration: none;
 }
 
 .header_logo {
@@ -87,7 +91,7 @@ ul li ol {
 }
 
 .menu-item > a {
-  text-decoration: none;
+  .no-text-decoration;
   text-align: center;
   color: grey;
 }
@@ -101,7 +105,7 @@ ul li ol {
 }
 
 #booking-ticket > a {
-  text-decoration: none;
+  .no-text-decoration;
   font-size: 17px;
 }
 
@@ -125,18 +129,47 @@ ul li ol {
   margin: 1em auto;
 }
 
+.word-small {
+  font-size: 15px;
+}
+
 .hero-banner {
   width: 100%;
   padding-top: 44px;
+
+  & > img {
+    width: 100%;
+    height: auto;
+  }
 }
 
-.hero-banner > img {
+.top-banner {
+  position: relative;
   width: 100%;
-  height: auto;
+  padding-top: 44px;
+  font-size: 0;
+  background-color: red;
+
+  & > img {
+    width: 100%;
+    height: auto;
+  }
+
+  & .button {
+    display: block;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
 }
 
 .important-info {
-  .color-text-red
+  .color-text-red;
+}
+
+.inline-title {
+  .bold-text;
 }
 
 .block {
@@ -145,7 +178,7 @@ ul li ol {
 
 .button {
   display: inline-block;
-  text-decoration: none;
+  .no-text-decoration;
   margin: 2px;
   padding: 15px 70px;
   font-size: 23px;
@@ -154,7 +187,7 @@ ul li ol {
 
 .button-small {
   display: inline-block;
-  text-decoration: none;
+  .no-text-decoration;
   margin: 2px;
   padding: 10px 40px;
   font-size: 17px;
@@ -252,6 +285,13 @@ ul li ol {
   }
 }
 
+.footer-additional {
+  position: relative;
+  margin-bottom: 0;
+  height: 250px;
+  padding-top: 30px;
+}
+
 #hook_box {
   position: fixed;
   height: 180px;
@@ -265,6 +305,10 @@ ul li ol {
   padding: 5px 15px;
   background-color: white;
   .color-border-black;
+}
+
+#contact-us {
+  margin-left: 100px;
 }
 
 // Common used
@@ -305,6 +349,10 @@ ul li ol {
   outline: none;
 }
 
+.bold-text {
+  font-weight: bold;
+}
+
 .unclickable {
   cursor: not-allowed;
 }
@@ -336,8 +384,27 @@ ul li ol {
   padding-right: 80px;
 }
 
+.no-text-decoration {
+  text-decoration: none;
+}
+
 //map integration
+.transportation-guide {
+  height: 300px;
+
+  & > div {
+    height: 100%;
+    & > img {
+      height: 100%;
+    }
+  }
+}
+
 #container {
-  height: 400px;
-  width: 500px;
+  height: 100%;
+  width: 100%;
+}
+
+.in-paragraph-word {
+  margin: 5px 0;
 }

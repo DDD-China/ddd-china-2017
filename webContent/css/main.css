@@ -11,6 +11,9 @@ html body {
 ul li ol {
   display: inline-block;
 }
+a {
+  text-decoration: none;
+}
 .navbar {
   position: fixed;
   width: 100%;
@@ -37,8 +40,8 @@ ul li ol {
   background-color: #f0f0f0;
 }
 .header_wrapper {
-  padding-bottom: 8px;
   text-decoration: none;
+  padding-bottom: 8px;
 }
 .header_logo {
   margin: 8px 0 0 4%;
@@ -93,6 +96,9 @@ ul li ol {
   max-width: 800px;
   margin: 1em auto;
 }
+.word-small {
+  font-size: 15px;
+}
 .hero-banner {
   width: 100%;
   padding-top: 44px;
@@ -101,8 +107,29 @@ ul li ol {
   width: 100%;
   height: auto;
 }
+.top-banner {
+  position: relative;
+  width: 100%;
+  padding-top: 44px;
+  font-size: 0;
+  background-color: red;
+}
+.top-banner > img {
+  width: 100%;
+  height: auto;
+}
+.top-banner .button {
+  display: block;
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 .important-info {
   color: red;
+}
+.inline-title {
+  font-weight: bold;
 }
 .block {
   display: block;
@@ -194,6 +221,12 @@ ul li ol {
 .footer .words .word {
   font-size: 20px;
 }
+.footer-additional {
+  position: relative;
+  margin-bottom: 0;
+  height: 250px;
+  padding-top: 30px;
+}
 #hook_box {
   position: fixed;
   height: 180px;
@@ -207,6 +240,9 @@ ul li ol {
   padding: 5px 15px;
   background-color: white;
   border: solid 2px black;
+}
+#contact-us {
+  margin-left: 100px;
 }
 .centered {
   text-align: center;
@@ -236,6 +272,9 @@ ul li ol {
   border: none;
   outline: none;
 }
+.bold-text {
+  font-weight: bold;
+}
 .unclickable {
   cursor: not-allowed;
 }
@@ -261,7 +300,22 @@ ul li ol {
   padding-left: 80px;
   padding-right: 80px;
 }
+.no-text-decoration {
+  text-decoration: none;
+}
+.transportation-guide {
+  height: 300px;
+}
+.transportation-guide > div {
+  height: 100%;
+}
+.transportation-guide > div > img {
+  height: 100%;
+}
 #container {
-  height: 400px;
-  width: 500px;
+  height: 100%;
+  width: 100%;
+}
+.in-paragraph-word {
+  margin: 5px 0;
 }
