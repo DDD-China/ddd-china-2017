@@ -308,13 +308,14 @@ a {
 }
 .transportation-guide > div {
   height: 100%;
+  width: 50%;
 }
 .transportation-guide > div > img {
+  width: 100%;
   height: 100%;
 }
 #container {
   height: 100%;
-  width: 100%;
 }
 .in-paragraph-word {
   margin: 5px 0;
