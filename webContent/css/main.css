@@ -24,6 +24,15 @@ ul li ol {
 .grid-space {
   padding: 60px 80px;
 }
+.inner-grid-space {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+.inner-grid {
+  padding-top: 20px;
+}
 .grid-grey {
   background-color: #f0f0f0;
 }
@@ -57,9 +66,6 @@ ul li ol {
   text-align: center;
   color: grey;
 }
-#topic-gathering > a {
-  color: white;
-}
 #booking-ticket {
   display: block;
   height: 100%;
@@ -74,6 +80,10 @@ ul li ol {
 .title {
   margin: 0;
   font-size: 36px;
+}
+.sub-title {
+  margin: 0;
+  font-size: 30px;
 }
 .words {
   margin-top: 20px;
@@ -103,6 +113,14 @@ ul li ol {
   margin: 2px;
   padding: 15px 70px;
   font-size: 23px;
+  border-radius: 4px;
+}
+.button-small {
+  display: inline-block;
+  text-decoration: none;
+  margin: 2px;
+  padding: 10px 40px;
+  font-size: 17px;
   border-radius: 4px;
 }
 .topic-pics {
@@ -193,6 +211,9 @@ ul li ol {
 .centered {
   text-align: center;
 }
+.text-left {
+  text-align: left;
+}
 .color-black {
   background-color: black;
 }
@@ -217,4 +238,30 @@ ul li ol {
 }
 .unclickable {
   cursor: not-allowed;
+}
+.menu-item-selected {
+  background-color: red;
+}
+.menu-item-selected > a {
+  color: white;
+}
+.flexbox-row {
+  display: flex;
+  align-content: center;
+  align-items: center;
+}
+.flexbox-item {
+  flex: auto;
+}
+.grid-space-vertical-small {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.grid-space-horizontal-middle {
+  padding-left: 80px;
+  padding-right: 80px;
+}
+#container {
+  height: 400px;
+  width: 500px;
 }

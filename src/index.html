@@ -1,13 +1,12 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <meta charset="utf-8">
     <title>DDD China Homepage</title>
     <link rel="stylesheet" href="css/main.css">
     <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
-</head>
 
+</head>
 <body>
 <div class="grid-wrapper navbar">
     <div class="grid">
@@ -16,14 +15,13 @@
                 <a class="header_logo" href="/"><img src="resource/DDD-logo-03.png" alt="DDD-logo"></a>
                 <div class="header_tabs">
                     <ul class="menu-items">
-                        <li class="menu-item"><a href="#" class="unclickable">专题演讲及日程安排</a></li>
+                        <li class="menu-item menu-item-selected"><a href="#" class="unclickable">专题演讲及日程安排</a></li>
                         <li class="menu-item"><a href="#" class="unclickable">讲师介绍</a></li>
                         <li class="menu-item"><a href="#introduction">大会简介</a></li>
                         <li class="menu-item"><a href="#" class="unclickable">合作伙伴</a></li>
                         <li class="menu-item"><a href="#" class="unclickable">会议地点</a></li>
                         <li class="menu-item"><a href="#" class="unclickable">工作坊</a></li>
-                        <li class="menu-item color-red" id="topic-gathering"><a class="color-text-white unclickable"
-                                                                                href="#">提案征集</a></li>
+                        <li class="menu-item"><a class="unclickable" href="#">提案征集</a></li>
                     </ul>
                 </div>
                 <div class="" id="booking-ticket">
@@ -35,50 +33,43 @@
 </div>
 
 <div class="grid-wrapper">
-    <div class="hero-banner">
-        <img src="resource/banner-03.png" alt="Topic pic">
-    </div>
-</div>
-<div class="grid-wrapper grid-space">
     <div class="grid centered">
-        <div class="grid-cell">
-            <p class="title">提案征集</p>
-            <div class="words">
-                <p class="word">2017年12月8日、9日，在北京将举办中国首届领域驱动设计相关大会——2017领域
-                    驱动设计中国峰会（2017 DDD China Conference）。
-                    <br>现向国内同行和领域设计（DDD）的实践者们广泛征集话题。</p>
-            </div>
-            <div class="words">
-                <p class="word important-info">话题提交截止时间</p>
-            </div>
-            <div class="block">
-                <p class="button color-black color-text-white">2017年9月30日17:00</p>
-            </div>
-            <div class="words">
-                <p class="word">我们将在10月15日之前完成话题评审并给予反馈，热忱地期待您的参与！</p>
-            </div>
+        <div class="grid-cell color-text-white">
+            <span class="important-info">This is for booking tickes.</span>
         </div>
     </div>
 </div>
 
-<div class="grid-wrapper grid-grey grid-space">
-    @@include('../includes/four-main-topics.html')
-</div>
-
 <div class="grid-wrapper grid-space">
-    @@include('../includes/two-topics.html')
+    @@include('../includes/agenda.html')
 </div>
 
 <div class="grid-wrapper grid-space" id="topic-uploading">
-    @@include('../includes/topic-uploading.html')
+    @@include('../includes/topic-uploading-index.html')
 </div>
 
-<div class="grid-wrapper grid-space" id="introduction">
-    @@include('../includes/introduction.html')
+<div class="grid-wrapper grid-space">
+    讲师介绍。
+</div>
+
+<div class="grid-wrapper grid-space grid-grey">
+    <div class="grid centered">
+        @@include('../includes/conf-introduction-part.html')
+    </div>
+</div>
+
+<div class="grid-wrapper grid-space">
+    @@include('../includes/partners.html')
+</div>
+
+<div class="grid-wrapper grid-space">
+    @@include('../includes/location-transportation.html')
 </div>
 
 @@include('../includes/footer.html')
 
 </body>
+
 <script type="text/javascript" src="js/validate.min.js"></script>
+<script type="text/javascript" src="js/map.js"></script>
 </html>
