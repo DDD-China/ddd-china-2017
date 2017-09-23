@@ -8,20 +8,21 @@
 
 </head>
 <body>
+
 <div class="grid-wrapper navbar">
     <div class="grid">
         <div class="grid-cell">
             <div class="header_wrapper">
-                <a class="header_logo" href="/"><img src="resource/DDD-logo-03.png" alt="DDD-logo"></a>
+                <a class="header_logo" href="#"><img src="resource/DDD-logo-03.png" alt="DDD-logo"></a>
                 <div class="header_tabs">
                     <ul class="menu-items">
-                        <li class="menu-item menu-item-selected"><a href="#" class="unclickable">专题演讲及日程安排</a></li>
-                        <li class="menu-item"><a href="#" class="unclickable">讲师介绍</a></li>
-                        <li class="menu-item"><a href="#introduction">大会简介</a></li>
-                        <li class="menu-item"><a href="#" class="unclickable">合作伙伴</a></li>
-                        <li class="menu-item"><a href="#" class="unclickable">会议地点</a></li>
+                        <li class="menu-item menu-item-selected"><a href="#agenda">专题演讲及日程安排</a></li>
+                        <li class="menu-item"><a href="#speakers-introduction">讲师介绍</a></li>
+                        <li class="menu-item"><a href="#conf-introduction">大会简介</a></li>
+                        <li class="menu-item"><a href="#partners">合作伙伴</a></li>
+                        <li class="menu-item"><a href="#location">会议地点</a></li>
                         <li class="menu-item"><a href="#" class="unclickable">工作坊</a></li>
-                        <li class="menu-item"><a class="unclickable" href="#">提案征集</a></li>
+                        <li class="menu-item"><a class="unclickable" href="topic-gathering.html">提案征集</a></li>
                     </ul>
                 </div>
                 <div class="" id="booking-ticket">
@@ -32,47 +33,49 @@
     </div>
 </div>
 
-<div class="grid-wrapper">
-    <div class="grid centered">
-        <div class="grid-cell top-banner">
-            <img src="resource/Banner-Top.png" alt="DDD-background">
-            <div class="block">
-                <a class="button color-black color-text-white color-border-white" href="#">购买门票</a>
+<div class="main-container">
+    <div class="grid-wrapper">
+        <div class="grid centered">
+            <div class="grid-cell top-banner">
+                <img src="resource/Banner-Top.png" alt="DDD-background">
+                <div class="block">
+                    <a class="button color-black color-text-white color-border-white" href="#">购买门票</a>
+                </div>
             </div>
         </div>
     </div>
-</div>
 
-<div class="grid-wrapper grid-space">
-    @@include('../includes/agenda.html')
-</div>
-
-<div class="grid-wrapper grid-space" id="topic-uploading">
-    @@include('../includes/topic-uploading-index.html')
-</div>
-
-<div class="grid-wrapper grid-space">
-    讲师介绍。
-</div>
-
-<div class="grid-wrapper grid-space grid-grey">
-    <div class="grid centered">
-        @@include('../includes/conf-introduction-part.html')
+    <div class="grid-wrapper grid-space" id="agenda">
+        @@include('../includes/agenda.html')
     </div>
+
+    <div class="grid-wrapper grid-space" id="topic-uploading">
+        @@include('../includes/topic-uploading-index.html')
+    </div>
+
+    <div class="grid-wrapper grid-space" id="speakers-introduction">
+        @@include('../includes/speakers-part.html')
+    </div>
+
+    <div class="grid-wrapper grid-space grid-grey" id="conf-introduction">
+        <div class="grid centered">
+            @@include('../includes/conf-introduction-part.html')
+        </div>
+    </div>
+
+    <div class="grid-wrapper grid-space" id="partners">
+        @@include('../includes/partners.html')
+    </div>
+
+    <div class="grid-wrapper grid-space" id="location">
+        @@include('../includes/location-transportation.html')
+    </div>
+
+    @@include('../includes/footer-additional.html')
 </div>
-
-<div class="grid-wrapper grid-space">
-    @@include('../includes/partners.html')
-</div>
-
-<div class="grid-wrapper grid-space">
-    @@include('../includes/location-transportation.html')
-</div>
-
-@@include('../includes/footer-additional.html')
-
 </body>
 
 <script type="text/javascript" src="js/validate.min.js"></script>
-<script type="text/javascript" src="js/map.js"></script>
+<script type="text/javascript" src="js/map.min.js"></script>
+<script type="text/javascript" src="js/main.min.js"></script>
 </html>
