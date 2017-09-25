@@ -3,33 +3,35 @@ $(function () {
     //     $('.navbar .menu-item').removeClass('menu-item-selected');
     //     $(this).parent().addClass('menu-item-selected');
     // })
+    highlightCurrentNavItem();
+
+    $(window).scroll(function () {
+        highlightCurrentNavItem();
+    });
+})
+
+function highlightCurrentNavItem() {
     var window_top = $(window).scrollTop() + 44;
     var speakers_introduction_top = $('#speakers-introduction').offset().top;
     var conf_introduction_top = $('#conf-introduction').offset().top;
     var partners_top = $('#partners').offset().top;
     var location_top = $('#location').offset().top;
-
-    $(window).scroll(function () {
-        window_top = $(window).scrollTop() + 44;
-        if (0 < window_top && window_top < speakers_introduction_top) {
-            focusOn(1);
-        }
-
-        if (speakers_introduction_top < window_top && window_top < conf_introduction_top) {
-            focusOn(2);
-        }
-        if (conf_introduction_top < window_top && window_top < partners_top) {
-            focusOn(3);
-        }
-        if (partners_top < window_top && window_top < location_top) {
-            focusOn(4);
-        }
-
-        if (location_top < window_top) {
-            focusOn(5);
-        }
-    });
-})
+    if (0 < window_top && window_top < speakers_introduction_top) {
+        focusOn(1);
+    }
+    if (speakers_introduction_top < window_top && window_top < conf_introduction_top) {
+        focusOn(2);
+    }
+    if (conf_introduction_top < window_top && window_top < partners_top) {
+        focusOn(3);
+    }
+    if (partners_top < window_top && window_top < location_top) {
+        focusOn(4);
+    }
+    if (location_top < window_top) {
+        focusOn(5);
+    }
+}
 
 function focusOn(menuItem) {
     $('.navbar .menu-item').removeClass('menu-item-selected');
