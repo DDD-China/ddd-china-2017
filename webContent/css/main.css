@@ -91,6 +91,10 @@ a {
   margin: 0;
   font-size: 30px;
 }
+.inner-title {
+  margin: 0;
+  font-size: 26px;
+}
 .words {
   margin-top: 20px;
 }
@@ -264,6 +268,10 @@ a {
   border-radius: 120px;
   background-repeat: no-repeat;
   background-size: cover;
+  filter: grayscale(100%);
+}
+.speaker-image:hover {
+  filter: opacity(50%);
 }
 .speaker-image.speaker-test {
   background-image: url("../resource/speakers/speaker-test.jpg");
@@ -271,6 +279,17 @@ a {
 .speaker-name {
   color: saddlebrown;
   font-weight: 700;
+}
+.speaker-info.grid-cell {
+  align-items: flex-start;
+}
+.speaker-info.grid-cell .speaker-img img {
+  width: 150px;
+  height: 150px;
+  border-radius: 120px;
+}
+.speaker-detail .content {
+  margin: 0.5em 0;
 }
 .centered {
   text-align: center;

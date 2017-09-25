@@ -120,6 +120,11 @@ a {
   font-size: 30px;
 }
 
+.inner-title {
+  margin: 0;
+  font-size: 26px;
+}
+
 .words {
   margin-top: 20px;
 }
@@ -332,6 +337,11 @@ a {
   border-radius: 120px;
   background-repeat: no-repeat;
   background-size: cover;
+  filter: grayscale(100%);
+
+  &:hover {
+    filter: opacity(50%);
+  }
 
   &.speaker-test {
     background-image: url("../resource/speakers/speaker-test.jpg");
@@ -343,7 +353,21 @@ a {
   font-weight: 700;
 }
 
+.speaker-info.grid-cell {
+  align-items: flex-start;
+  .speaker-img {
+    img {
+      width: 150px;
+      height: 150px;
+      border-radius: 120px;
+    }
+  }
+}
+
 .speaker-detail {
+  .content {
+    margin: 0.5em 0;
+  }
 }
 
 // Common used
