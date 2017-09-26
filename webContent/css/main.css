@@ -80,6 +80,14 @@ a {
 #booking-ticket > a {
   text-decoration: none;
   font-size: 17px;
+  padding-left: 20px;
+}
+#booking-ticket > a span {
+  position: relative;
+}
+#booking-ticket > a span img {
+  position: absolute;
+  left: -28px;
 }
 .title {
   margin: 0;
