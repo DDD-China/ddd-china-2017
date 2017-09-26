@@ -49,7 +49,7 @@ a {
 
 .inner-grid-space {
   .grid-space-vertical-small;
-  .grid-space-horizontal-middle
+  //.grid-space-horizontal-middle
 }
 
 .inner-grid {
@@ -62,6 +62,7 @@ a {
 
 .header_wrapper {
   .no-text-decoration;
+  box-shadow: 0 1px 3px -2px #000000;
 }
 
 .header_logo {
@@ -151,7 +152,7 @@ a {
   position: relative;
   width: 100%;
   font-size: 0;
-  background-color: red;
+  background-color: @tw_red;
 
   & > img {
     width: 100%;
@@ -233,6 +234,7 @@ a {
 
 #topic-uploading {
   background-image: url("../resource/topic-banner.png");
+  background-size: cover;
 
   & .words {
     margin: 30px auto;
@@ -388,7 +390,7 @@ a {
 }
 
 .color-red {
-  background-color: red;
+  background-color: @tw_red;
 }
 
 .color-text-white {
@@ -396,7 +398,7 @@ a {
 }
 
 .color-text-red {
-  color: red;
+  color: @tw_red;
 }
 
 .color-text-brown {
@@ -484,3 +486,5 @@ a {
 .in-paragraph-word {
   margin: 5px 0;
 }
+
+@tw_red: #EE312D;

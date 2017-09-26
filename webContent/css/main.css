@@ -33,8 +33,6 @@ a {
 .inner-grid-space {
   padding-top: 20px;
   padding-bottom: 20px;
-  padding-left: 80px;
-  padding-right: 80px;
 }
 .inner-grid {
   padding-top: 20px;
@@ -44,6 +42,7 @@ a {
 }
 .header_wrapper {
   text-decoration: none;
+  box-shadow: 0 1px 3px -2px #000000;
 }
 .header_logo {
   margin: 8px 0 0 4%;
@@ -116,7 +115,7 @@ a {
   position: relative;
   width: 100%;
   font-size: 0;
-  background-color: red;
+  background-color: #EE312D;
 }
 .top-banner > img {
   width: 100%;
@@ -130,7 +129,7 @@ a {
   transform: translate(-50%, -50%);
 }
 .important-info {
-  color: red;
+  color: #EE312D;
 }
 .inline-title {
   font-weight: bold;
@@ -183,6 +182,7 @@ a {
 }
 #topic-uploading {
   background-image: url("../resource/topic-banner.png");
+  background-size: cover;
 }
 #topic-uploading .words {
   margin: 30px auto;
@@ -304,13 +304,13 @@ a {
   background-color: black;
 }
 .color-red {
-  background-color: red;
+  background-color: #EE312D;
 }
 .color-text-white {
   color: white;
 }
 .color-text-red {
-  color: red;
+  color: #EE312D;
 }
 .color-text-brown {
   color: saddlebrown;
@@ -332,7 +332,7 @@ a {
   cursor: not-allowed;
 }
 .menu-item-selected {
-  background-color: red;
+  background-color: #EE312D;
 }
 .menu-item-selected > a {
   color: white;
