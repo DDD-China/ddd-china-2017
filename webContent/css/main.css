@@ -22,7 +22,7 @@ a {
   min-width: 1080px;
 }
 .main-container {
-  padding-top: 44px;
+  padding-top: 40px;
 }
 .grid-wrapper {
   display: block;
@@ -33,6 +33,12 @@ a {
 .inner-grid-space {
   padding-top: 20px;
   padding-bottom: 20px;
+}
+.inner-grid-space-both {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 80px;
+  padding-right: 80px;
 }
 .inner-grid {
   padding-top: 20px;
