@@ -299,6 +299,15 @@ a {
 .speaker-detail .content {
   margin: 0.5em 0;
 }
+.TBD {
+  width: 120px;
+  padding: 5px 20px;
+  margin: 0px auto;
+  border: solid 2px gray;
+}
+.sponsor .words {
+  margin-bottom: 5px;
+}
 .centered {
   text-align: center;
 }
@@ -325,6 +334,9 @@ a {
 }
 .color-border-black {
   border: solid 2px black;
+}
+.color-border-gray {
+  border: solid 2px gray;
 }
 .color-border-none {
   border: none;
