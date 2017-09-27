@@ -121,13 +121,10 @@ a {
 }
 .top-banner {
   position: relative;
-  width: 100%;
   font-size: 0;
-  background-color: #EE312D;
-}
-.top-banner > img {
-  width: 100%;
-  height: auto;
+  background: #EE312D url("../resource/Banner-Top.png");
+  background-position-x: center;
+  background-size: cover;
 }
 .top-banner .button {
   display: block;

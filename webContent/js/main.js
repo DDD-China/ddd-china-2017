@@ -8,6 +8,9 @@ $(function () {
     $(window).scroll(function () {
         highlightCurrentNavItem();
     });
+
+    var window_height = $(window).height();
+    $('.top-banner').css('height', window_height - 44);
 })
 
 function highlightCurrentNavItem() {
