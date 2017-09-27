@@ -14,11 +14,11 @@ $(function () {
 
 function changeBannerSize() {
     var window_height = $(window).height();
-    $('.top-banner').css('height', window_height - 40);
+    $('.top-banner').css('height', window_height - 43);
 }
 
 function highlightCurrentNavItem() {
-    var window_top = $(window).scrollTop() + 40;
+    var window_top = $(window).scrollTop() + 43;
     var speakers_introduction_top = $('#speakers-introduction').offset().top;
     var conf_introduction_top = $('#conf-introduction').offset().top;
     var partners_top = $('#partners').offset().top;

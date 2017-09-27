@@ -1,6 +1,11 @@
 //out: main.css
 //main: main.less
 
+//variables
+@tw_red: #EE312D;
+@nav_height: 44px;
+
+//html styles
 html body {
   padding: 0;
   margin: 0;
@@ -30,7 +35,7 @@ a {
 }
 
 .main-container {
-  padding-top: 40px;
+  padding-top: 43px;
 }
 
 .grid-wrapper {
@@ -84,7 +89,7 @@ a {
 }
 
 .menu-items {
-  height: 100%;
+  height: @nav_height;
   float: left;
   clear: none;
   padding-left: 20px;
@@ -93,33 +98,38 @@ a {
 
 .menu-item {
   display: inline-block;
-  padding: 11px 15px 12px;
+  padding: 0px 15px;
 }
 
 .menu-item > a {
   .no-text-decoration;
   text-align: center;
+  height: @nav_height;
+  line-height: @nav_height;
   color: grey;
 }
 
 #booking-ticket {
   display: block;
-  height: 100%;
+  height: @nav_height;
+  padding: 0px 20px;
   float: right;
   background-color: grey;
-  padding: 10px 20px 11px;
 }
 
 #booking-ticket > a {
   .no-text-decoration;
   font-size: 17px;
   padding-left: 20px;
+  height: @nav_height;
+  line-height: @nav_height;
 
   span {
     position: relative;
 
     img {
       position: absolute;
+      top: -3px;
       left: -28px;
     }
   }
@@ -525,5 +535,3 @@ a {
 .in-paragraph-word {
   margin: 5px 0;
 }
-
-@tw_red: #EE312D;
