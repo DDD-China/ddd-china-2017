@@ -9,9 +9,13 @@ $(function () {
         highlightCurrentNavItem();
     });
 
+    changeBannerSize();
+});
+
+function changeBannerSize() {
     var window_height = $(window).height();
     $('.top-banner').css('height', window_height - 44);
-})
+}
 
 function highlightCurrentNavItem() {
     var window_top = $(window).scrollTop() + 44;

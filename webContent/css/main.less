@@ -160,6 +160,8 @@ a {
 
 .top-banner {
   position: relative;
+  min-height: 450px;
+  max-height: 680px;
   font-size: 0;
   background: @tw_red url("../resource/Banner-Top.png");
   background-position-x: center;
@@ -336,7 +338,7 @@ a {
 .speaker-container {
   .flexbox-item;
 
-  @media (min-width: 768px) {
+  @media screen and (min-width: 768px) {
     max-width: 150px;
     display: inline-block;
   }
@@ -383,16 +385,25 @@ a {
 }
 
 .TBD {
-  width: 120px;
   padding: 5px 20px;
   margin: 0px auto;
   .color-border-gray;
+
+  @media all and (min-width: 450px) {
+    width: auto;
+  }
+
+  @media all and (min-width: 850px) {
+    width: 150px;
+  }
 }
 
 .sponsor {
   .words {
     margin-bottom: 5px;
   }
+
+  margin: 0px 25%;
 }
 
 // Common used
