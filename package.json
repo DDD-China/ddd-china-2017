@@ -18,6 +18,8 @@
     "gulp": "^3.9.1",
     "gulp-sequence": "^0.4.6",
     "gulp-include-file": "^0.1.1",
-    "gulp-js-minify": "^0.0.3"
+    "gulp-js-minify": "^0.0.3",
+    "gulp-rename": "^1.2.2",
+    "gulp-less": "^3.3.2"
   }
 }
