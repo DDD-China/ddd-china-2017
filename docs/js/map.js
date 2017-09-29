@@ -1,6 +1,6 @@
 $(function init() {
     var map = new AMap.Map('container', {
-        center: [116.432581, 39.939081],
+        center: [116.402516, 39.98931],
         zoom: 18
     });
     map.plugin(["AMap.ToolBar"], function () {
@@ -8,7 +8,7 @@ $(function init() {
     });
     var marker = new AMap.Marker({
         map: map,
-        position: [116.432581, 39.939081]
+        position: [116.402516, 39.98931]
     });
     marker.setLabel({
         offset: new AMap.Pixel(20, 20),//修改label相对于maker的位置
@@ -16,9 +16,8 @@ $(function init() {
     });
     marker.on('click', function (e) {
         marker.markOnAMAP({
-            name: '神华国华投资大厦',
+            name: '北京国际会议中心',
             position: marker.getPosition()
         })
     })
 });
-

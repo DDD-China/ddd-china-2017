@@ -83,7 +83,6 @@ a {
   height: 44px;
   padding: 0px 20px;
   float: right;
-  background-color: grey;
 }
 #booking-ticket > a {
   text-decoration: none;
@@ -344,6 +343,9 @@ a {
 }
 .color-red {
   background-color: #EE312D;
+}
+.color-gray {
+  background-color: gray;
 }
 .color-text-white {
   color: white;
