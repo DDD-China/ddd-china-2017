@@ -5,6 +5,8 @@ var gulp = require('gulp'),
     minifyjs = require('gulp-js-minify'),
     less = require('gulp-less');
 
+var webRoot = "docs/";
+
 gulp.task('watch', gulp_sequence(['watch_html', 'watch_js', 'watch_css']));
 
 
@@ -13,11 +15,11 @@ gulp.task('watch_html', function () {
 })
 
 gulp.task('watch_js', function () {
-    gulp.watch(['webContent/js/*.js', 'webContent/js/speakers/*.js'], ['minify-js-index', 'minify-js-speakers']);
+    gulp.watch([webRoot + 'js/*.js', webRoot + 'js/speakers/*.js'], ['minify-js-index', 'minify-js-speakers']);
 });
 
 gulp.task('watch_css', function () {
-    gulp.watch('webContent/css/*.less', ['compile-less']);
+    gulp.watch(webRoot + 'css/*.less', ['compile-less']);
 })
 
 gulp.task('include_index', function () {
@@ -26,7 +28,7 @@ gulp.task('include_index', function () {
             prefix: '@@',
             basepath: '@file'
         }))
-        .pipe(gulp.dest('webContent'));
+        .pipe(gulp.dest(webRoot));
 });
 
 gulp.task('include_speakers', function () {
@@ -35,25 +37,25 @@ gulp.task('include_speakers', function () {
             prefix: '@@',
             basepath: '@file'
         }))
-        .pipe(gulp.dest('webContent/speakers/'));
+        .pipe(gulp.dest(webRoot + 'speakers/'));
 });
 
 gulp.task('minify-js-index', function () {
-    gulp.src(['webContent/js/*.js', '!webContent/js/*.min.js'])
+    gulp.src([webRoot + 'js/*.js', '!' + webRoot + 'js/*.min.js'])
         .pipe(minifyjs())
         .pipe(rename({suffix: '.min'}))
-        .pipe(gulp.dest('webContent/js/lib'));
+        .pipe(gulp.dest(webRoot + 'js/lib'));
 });
 
 gulp.task('minify-js-speakers', function () {
-    gulp.src(['webContent/js/speakers/*.js', '!webContent/js/speakers/*.min.js'])
+    gulp.src([webRoot + 'js/speakers/*.js', '!' + webRoot + 'js/speakers/*.min.js'])
         .pipe(minifyjs())
-		    .pipe(rename({suffix: '.min'}))
-        .pipe(gulp.dest('webContent/js/lib/'));
+        .pipe(rename({suffix: '.min'}))
+        .pipe(gulp.dest(webRoot + 'js/lib/'));
 });
 
 gulp.task('compile-less', function () {
-    gulp.src('webContent/css/*.less')
+    gulp.src(webRoot + 'css/*.less')
         .pipe(less())
-        .pipe(gulp.dest('webContent/css/'))
+        .pipe(gulp.dest(webRoot + 'css/'))
 })
