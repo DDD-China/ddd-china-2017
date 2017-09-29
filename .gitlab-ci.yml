@@ -2,7 +2,7 @@ pages:
   stage: deploy
   script:
   - mkdir public
-  - mv webContent/* public
+  - mv docs/* public
   artifacts:
     paths:
     - public
