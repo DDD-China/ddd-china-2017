@@ -16,10 +16,11 @@
   "homepage": "https://gitlab.com/stringlc/web-DDD#README",
   "devDependencies": {
     "gulp": "^3.9.1",
-    "gulp-sequence": "^0.4.6",
+    "gulp-file-include": "^1.2.0",
     "gulp-include-file": "^0.1.1",
     "gulp-js-minify": "^0.0.3",
+    "gulp-less": "^3.3.2",
     "gulp-rename": "^1.2.2",
-    "gulp-less": "^3.3.2"
+    "gulp-sequence": "^0.4.6"
   }
 }

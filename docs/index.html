@@ -44,7 +44,7 @@
         </div>
     </div>
 
-    <div class="grid-wrapper grid-space" id="agenda">
+    <div class="grid-wrapper grid-space content-container" id="agenda">
         <div class="grid centered">
     <div class="grid-cell">
         <div class="words">
@@ -109,7 +109,7 @@
 </div>
     </div>
 
-    <div class="grid-wrapper grid-space" id="speakers-introduction">
+    <div class="grid-wrapper grid-space content-container" id="speakers-introduction">
         <div class="grid centered">
     <div class="grid-cell">
         <p class="title">讲师介绍</p>
@@ -122,32 +122,45 @@
     <div class="flexbox speakers">
         <div class="speaker-container">
             <a href="speakers/speaker-test.html">
-                <div class="speaker-image speaker-test"></div>
+                <div class="speaker-image">
+                    <div class="modal"></div>
+                    <img src="/resource/speakers/alberto-brandolini.jpg" alt="alberto-brandolini">
+                </div>
             </a>
             <h3>
-                <a class="speaker-name" href="speakers/speaker-test.html">熊本熊</a>
+                <a class="speaker-name" href="speakers/speaker-test.html">Alberto Brandolini</a>
             </h3>
-            <p class="speaker-detail">熊本熊样例</p>
+            <p class="speaker-detail">全球软件巨匠</p>
         </div>
 
         <div class="speaker-container">
             <a href="/speakers/speaker-name.html">
-                <div class="speaker-image speaker-test"></div>
+                <div class="speaker-image">
+                    <div class="modal"></div>
+                    <img src="/resource/speakers/chrishead_large_cropped.jpg" alt="chrishead_large_cropped">
+                </div>
             </a>
             <h3>
-                <a class="speaker-name" href="/speakers/speaker-name.html">页面不可用</a>
+                <a class="speaker-name" href="/speakers/speaker-name.html">Chris Richardson</a>
             </h3>
-            <p class="speaker-detail">speaker job / working experience</p>
+            <p class="speaker-detail">世界著名软件大师</p>
         </div>
 
         <div class="speaker-container">
             <a href="speaker-name.html">
-                <div class="speaker-image speaker-name"></div>
+                <div class="speaker-image speaker-name">
+                    <div class="modal"></div>
+                    <img src="/resource/speakers/xiaoran.jpg" alt="xiaoran">
+                </div>
             </a>
             <h3>
-                <a class="speaker-name" href="speaker-name.html">页面不可用</a>
+                <a class="speaker-name" href="speaker-name.html">肖然</a>
             </h3>
-            <p class="speaker-detail">speaker job / working experience</p>
+            <p class="speaker-detail">
+                ThoughtWorks
+                <br>
+                咨询总监
+            </p>
         </div>
 
         <div class="speaker-container">
@@ -181,6 +194,25 @@
             </h3>
             <p class="speaker-detail">speaker job / working experience</p>
         </div>
+        <div class="speaker-container">
+            <a href="speaker-name.html">
+                <div class="speaker-image speaker-name"></div>
+            </a>
+            <h3>
+                <a class="speaker-name" href="speaker-name.html">页面不可用</a>
+            </h3>
+            <p class="speaker-detail">speaker job / working experience</p>
+        </div>
+
+        <div class="speaker-container">
+            <a href="speaker-name.html">
+                <div class="speaker-image speaker-name"></div>
+            </a>
+            <h3>
+                <a class="speaker-name" href="speaker-name.html">页面不可用</a>
+            </h3>
+            <p class="speaker-detail">speaker job / working experience</p>
+        </div>
     </div>
 
 </div>
@@ -190,7 +222,7 @@
     <div class="grid-wrapper grid-space grid-grey" id="conf-introduction">
         <div class="grid centered">
             <p class="title">大会简介</p>
-<div class="words">
+<div class="words content-container">
     <p class="word text-left">2003年，<i>Domain Driven Design</i> 一书面世。这一架构思想深深的影响了过去15年软件行业的架构理论和实践
         体系的发展路径。依赖反转、洋葱圈架构、六边形架构、CQRS架构、EDA架构、到Uncle Bob提出的整洁架构原则、以及2014年
         Martin Fowler和James Lewis提出的微服务架构风格，这些不同的架构思想的出现，都显示出领域驱动设计（DDD）的思想越
@@ -204,13 +236,13 @@
         （DDD）的架构思想能够在国内被更多人所认知，从而形成更大的规模效应。
     </p>
     <p class="word text-left">
-        我们决定将于2017年12月8、9日，在北京举行2017领域驱动设计践行峰会（2017 DDD Explore Conference）。我们热忱地期待您的参与!
+        我们决定将于2017年12月8、9日，在北京举行2017领域驱动设计中国峰会（2017 DDD China Conference）。我们热忱地期待您的参与!
     </p>
 </div>
         </div>
     </div>
 
-    <div class="grid-wrapper grid-space" id="partners">
+    <div class="grid-wrapper grid-space content-container" id="partners">
         <div class="grid centered">
     <div class="grid-cell inner-grid-space">
         <p class="title">合作伙伴</p>
@@ -283,7 +315,7 @@
 </div>
     </div>
 
-    <div class="grid-wrapper grid-space" id="location">
+    <div class="grid-wrapper grid-space content-container" id="location">
         <script type="text/javascript"
         src="http://webapi.amap.com/maps?v=1.4.0&key=6930c49007c87194f4a0ca5ce4917e74"></script>
 <div class="grid centered">
@@ -313,10 +345,9 @@
     </div>
 
     <div class="grid-wrapper footer-additional color-black color-text-white">
-    <div class="grid-cell" id="contact-us">
+    <div class="grid-cell content-container" id="contact-us">
         <p class="sub-title">联系我们</p>
         <div class="words">
-            <p class="in-paragraph-word">购票热线</p>
             <p class="in-paragraph-word">议题提交：speakers@ddd-china.com</p>
             <p class="in-paragraph-word">合作咨询：info@ddd-china.com</p>
             <p class="in-paragraph-word">购票咨询：tickets@ddd-china.com</p>
@@ -325,7 +356,7 @@
 
     <div class="grid-cell centered">
         <div class="words">
-            <p class="word word-small color-text-white">@ by ThoughtWorks 中国，2017</p>
+            <p class="word word-small color-text-white">@ by DDD China，2017</p>
         </div>
     </div>
 </div>

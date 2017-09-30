@@ -34,12 +34,6 @@ a {
   padding-top: 20px;
   padding-bottom: 20px;
 }
-.inner-grid-space-both {
-  padding-top: 20px;
-  padding-bottom: 20px;
-  padding-left: 80px;
-  padding-right: 80px;
-}
 .inner-grid {
   padding-top: 20px;
 }
@@ -116,8 +110,6 @@ a {
 }
 .word {
   font-size: 18px;
-  max-width: 800px;
-  margin: 1em auto;
 }
 .word-small {
   font-size: 15px;
@@ -176,7 +168,7 @@ a {
 }
 .topic-pic {
   display: inline-block;
-  margin: auto 25px;
+  margin: auto 60px;
   background-repeat: no-repeat;
 }
 .topic-pic img {
@@ -288,13 +280,37 @@ a {
   border-radius: 120px;
   background-repeat: no-repeat;
   background-size: cover;
+  position: relative;
   filter: grayscale(100%);
 }
 .speaker-image:hover {
-  filter: opacity(50%);
+  filter: none;
+}
+.speaker-image:hover .modal {
+  display: block;
+}
+.speaker-image .modal {
+  display: none;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  top: 0;
+  left: 0;
+  background-color: rgba(235, 52, 54, 0.5);
+  z-index: 20;
+}
+.speaker-image .modal:hover {
+  display: block;
 }
 .speaker-image.speaker-test {
   background-image: url("../resource/speakers/speaker-test.jpg");
+}
+.speaker-image img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  z-index: 10;
 }
 .speaker-name {
   color: saddlebrown;
@@ -423,4 +439,28 @@ a {
 }
 .in-paragraph-word {
   margin: 5px 0;
+}
+.fee {
+  width: 90%;
+  height: auto;
+  margin: auto 50px 30px;
+}
+.fee .subTitle {
+  color: saddlebrown;
+  margin-top: 40px;
+  display: block;
+}
+.fee .tip {
+  color: red;
+}
+.fee ol li {
+  margin: 8px auto;
+}
+.bookingTitle {
+  text-align: center;
+  margin: 40px;
+}
+.content-container {
+  width: 1070px;
+  margin: auto;
 }
