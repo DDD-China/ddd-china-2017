@@ -316,6 +316,10 @@ a {
   color: saddlebrown;
   font-weight: 700;
 }
+.speaker-info .speaker-detail {
+  margin-right: 100px;
+  width: 450px;
+}
 .speaker-info.grid-cell {
   align-items: flex-start;
 }
