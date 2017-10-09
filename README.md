@@ -44,10 +44,10 @@ conference<br>
   </tr>
   <tr>
     <th></th>
-    <td align="center">TRACK1</td>
-    <td align="center">TRACK2</td>
-    <td align="center">TRACK3</td>
-    <td align="center">TRACK4</td>
+    <td align="center" width="20%">TRACK1</td>
+    <td align="center" width="20%">TRACK2</td>
+    <td align="center" width="20%">TRACK3</td>
+    <td align="center" width="20%">TRACK4</td>
   </tr>
   <tr>
     <th></th>
@@ -128,4 +128,4 @@ conference<br>
   </tr>
 </table>
 
-了解详情&峰会报名： [www.ddd-china.com](https://www.ddd-china.com)
+了解详情&峰会报名： [www.ddd-china.com](https://www.ddd-china.com)  
