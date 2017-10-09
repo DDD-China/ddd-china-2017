@@ -2,7 +2,7 @@
 html body {
   padding: 0;
   margin: 0;
-  min-width: 1080px;
+  min-width: 1280px;
 }
 * {
   font-family: "Noto Sans Thin", "Noto Sans CJK SC Thin", sans-serif;
@@ -465,6 +465,5 @@ a {
   margin: 40px;
 }
 .content-container {
-  width: 1070px;
   margin: auto;
 }
