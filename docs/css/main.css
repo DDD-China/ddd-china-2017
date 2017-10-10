@@ -346,6 +346,9 @@ a {
     width: 150px;
   }
 }
+.TBD img {
+  width: 100%;
+}
 .sponsor {
   margin: 0px 25%;
 }
