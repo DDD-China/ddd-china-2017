@@ -41,7 +41,7 @@ var speakers = [{
     'speaker-topic': `
         Bounded Context的实践意义（领域驱动设计与演进式架构及微服务专题演讲）<br>
         Bounded Context作为DDD战略设计的重要入口与概念，可以与微服务设计有机地结
-        合起来。本演讲会深入剖析Bounded Context的本质原理，提供切实可行的方法帮助
+        合起来。<br>本演讲会深入剖析Bounded Context的本质原理，提供切实可行的方法帮助
         团队成员发现Bounded Context，探讨Bounded Context的边界，并结合Event
         Sourcing、微服务架构、六边形架构模式、用户故事地图，总结出从架构到编码实现
         的实践意义。
@@ -58,7 +58,7 @@ var speakers = [{
     'speaker-introduction': '骨灰级程序员',
     'speaker-information': `
         李新<br>
-        代码20+年，精通从C++到Golang，用Java实现过互联网大型分布是系统，用Scala设
+        代码20+年，精通从C++到Golang，用Java实现过互联网大型分布式系统，用Scala设
         计过现代通信网络。像计算机一样思考，追求代码架构设计的大道至简。
     `,
     'speaker-topic': `
