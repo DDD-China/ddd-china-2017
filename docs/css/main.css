@@ -332,9 +332,12 @@ a {
   margin: 0.5em 0;
 }
 .TBD {
-  padding: 5px 20px;
+  padding: 5px 10px;
   margin: 0px auto;
   border: solid 2px gray;
+}
+.TBD.content {
+  border-color: white;
 }
 @media all and (min-width: 450px) {
   .TBD {
