@@ -24,10 +24,13 @@ var speakers = [{
         ，成为了我们响应不确定性的重要方法。
     `,
     'speaker-outline': `
-        不确定性的悖论<br>
-        架构设计的达摩克利斯之剑<br>
-        面向不确定性演进<br>
-        微服务架构红眼病
+        <ul>
+        <li>不确定性的悖论</li>
+        <li>架构设计的达摩克利斯之剑</li>
+        <li>面向不确定性演进</li>
+        <li>微服务架构红眼病</li>
+</ul>
+
     `,
 }, {
     'speaker-img': '../resource/speakers/zhangyi.png',
@@ -116,7 +119,7 @@ var speakers = [{
 }, {
     'speaker-img': '../resource/speakers/zhangqunhui.png',
     'speaker-name': '张群辉',
-    'speaker-introduction': '领域驱动设计国内最早实践者',
+    'speaker-introduction': '阿里盒马架构总监<br>领域驱动设计国内最早的一批实践者',
     'speaker-information': '张群辉<br>15+年技术及管理实战经验，前阿里基础机构事业部工程效率总监，' +
     '长期一线指导大型复杂系统的架构设计，DevOps、微服务架构及领域驱动设计国内最早的一批实践者。' +
     '崇尚实践出真知，一直奋斗在技术一线。',

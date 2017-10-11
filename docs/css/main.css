@@ -339,6 +339,9 @@ a {
 .TBD.content {
   border-color: white;
 }
+.TBD.large {
+  width: 250px;
+}
 @media all and (min-width: 450px) {
   .TBD {
     width: auto;
