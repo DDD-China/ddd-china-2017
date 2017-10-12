@@ -271,6 +271,7 @@ a {
 @media screen and (min-width: 768px) {
   .speaker-container {
     max-width: 150px;
+    height: 350px;
     display: inline-block;
   }
 }
