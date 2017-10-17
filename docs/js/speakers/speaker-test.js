@@ -39,7 +39,7 @@ var speakers = [{
     'speaker-introduction': '编码实践、加固设计、领域驱动实践领先者',
     'speaker-information': `
         <span class="bold-text">张逸</span><br>
-        成创翻有限公司CEO，编码实践、加固设计、领域驱动实践领先者<br>
+        编码实践、加固设计、领域驱动实践领先者<br>
         致力于编码实践、架构设计、领域驱动、大数据分析，并在金融、
         制造业、医疗、通信、企业架构、互联网诸多行业有丰富的开发与设计经验。
     `,
