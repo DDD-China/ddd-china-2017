@@ -362,6 +362,9 @@ a {
 .sponsor .words {
   margin-bottom: 5px;
 }
+#partners .fix-height {
+  height: 110px;
+}
 .centered {
   text-align: center;
 }
