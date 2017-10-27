@@ -112,4 +112,4 @@ Conference<br>
   </tr>
 </table>
 
-了解详情&峰会报名： [www.ddd-china.com](https://www.ddd-china.com)  
+了解详情&峰会报名： [www.ddd-china.com](http://www.ddd-china.com)  
