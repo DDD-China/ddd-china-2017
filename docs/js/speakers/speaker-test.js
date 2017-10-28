@@ -416,5 +416,43 @@ var speakers = [{
     '<li>基于云的测试平台建设</li>' +
     '<li>DDD实践心得总结</li>' +
     '</ul>'
+}, {
+    'speaker-img':
+        '../resource/speakers/huangliang.png',
+    'speaker-name':
+        '黄亮',
+    'speaker-introduction':
+        'ThoughtWorks资深咨询师，DDD实践布道者',
+    'speaker-information':
+    '<span class="bold-text">黄亮</span><br>ThoughtWorks资深咨询师，DDD实践布道者，十三年应用开发与架构经验，热爱技术，喜欢Coding。专注于软件架构与持续交付领域，为不同领域的客户提供专业的技术改进与咨询服务，尤其擅长于JAVA技术栈与微服务架构。',
+    'speaker-topic':
+    '<span class = "bold-text">「从OO到DDD」</span><br>' +
+    '有人说DDD是OO的一个正确的作法，当我们实践DDD的过程中，很多OO问题依然会遇到，在本主题中，我们将带您探索OO本质，分析并解决DDD实践遇到的各种OO问题。',
+    'speaker-outline':
+    '' +
+    '<ul>' +
+    '<li>OO本质</li>' +
+    '<li>从OO到DDD</li>' +
+    '<li>实践DDD中遇到的一些OO问题</li>' +
+    '</ul>'
+}, {
+    'speaker-img':
+        '../resource/speakers/hurong.jpeg',
+    'speaker-name':
+        '胡戎',
+    'speaker-introduction':
+        '中国电子第六研究所前端负责人，CNode讲师，graphql.cn维护者',
+    'speaker-information':
+    '<span class="bold-text">胡戎</span><br>中国电子第六研究所前端负责人，CNode讲师，graphql.cn维护者，负责多个大型航天项目',
+    'speaker-topic':
+    '<span class = "bold-text">「领域驱动的FRP复合范式在复杂前端应用的实践」</span><br>' +
+    '多数据源复杂应用中如何管理数据流，结合OOP和FRP的的复合范式构建大型的复杂应用程序。react redux rxjs采用redux基于OOP管理uiModal以及Domain Modal，根据FRP的编程思想通过RxJS设计并管理单向数据流。',
+    'speaker-outline':
+    '' +
+    '<ul>' +
+    '<li>介绍OOP和FRP</li>' +
+    '<li>介绍OOP和FRP在大型前端应用的技术选型</li>' +
+    '<li>举例介绍RXJS管理数据流常见的业务场景</li>' +
+    '</ul>'
 }
 ]
