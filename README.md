@@ -47,10 +47,10 @@ Conference<br>
   </tr>
   <tr>
     <th>SESSION</th>
-    <td align="center" width="20%"><b>TRACK1: <br>领域驱动设计与企业架构</b></td>
-    <td align="center" width="20%"><b>TRACK2: <br>领域驱动设计与演进式架构及微服务</b></td>
-    <td align="center" width="20%"><b>TRACK3: <br>领域驱动统一语言的实践模式</b></td>
-    <td align="center" width="20%"><b>TRACK4: <br>领域驱动设计与组织治理</b></td>
+    <td align="center" width="22%"><b>TRACK1: <br>领域驱动设计与企业架构</b></td>
+    <td align="center" width="22%"><b>TRACK2: <br>领域驱动设计与演进式架构及微服务</b></td>
+    <td align="center" width="22%"><b>TRACK3: <br>领域驱动统一语言的实践模式</b></td>
+    <td align="center" width="22%"><b>TRACK4: <br>领域驱动设计与组织治理</b></td>
   </tr>
   <tr>
     <th>11:10-12:00</th>
