@@ -77,6 +77,7 @@ a {
   height: 44px;
   padding: 0px 20px;
   float: right;
+  background-color: red;
 }
 #booking-ticket > a {
   text-decoration: none;
@@ -130,12 +131,20 @@ a {
   background-position-x: center;
   background-size: cover;
 }
+.top-banner.workshop {
+  background: #EE312D url("../resource/workshop-banner.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 .top-banner .button {
   display: block;
   position: absolute;
   bottom: 20px;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+.top-banner .button.workshop {
+  left: 20%;
 }
 .important-info {
   color: #EE312D;
@@ -479,4 +488,44 @@ a {
 }
 .content-container {
   margin: auto;
+}
+.workshop {
+  text-align: center;
+}
+.workshop .content-container {
+  padding: 50px 0;
+}
+.workshop .sub-title {
+  color: red;
+  font-size: 30px;
+}
+.workshop .img-left {
+  display: inline-block;
+  width: 340px;
+  height: 200px;
+  color: white;
+  background: cover;
+  background-repeat: no-repeat;
+  vertical-align: middle;
+  margin-right: 30px;
+}
+.workshop .img-left.management {
+  background-image: url("../resource/conflict-management.png");
+}
+.workshop .img-left.explore {
+  background-image: url("../resource/explore-d.png");
+}
+.workshop .img-left.design {
+  background-image: url("../resource/flow-design.png");
+}
+.workshop .content-right {
+  display: inline-block;
+  width: 400px;
+  vertical-align: middle;
+  text-align: left;
+}
+.workshop .subTitle {
+  font-size: 30px;
+  line-height: 200px;
+  margin: 0;
 }

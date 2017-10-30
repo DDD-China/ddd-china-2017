@@ -186,31 +186,6 @@ var speakers = [{
     '</ul>'
 }, {
     'speaker-img':
-        '../resource/speakers/wangbo.png',
-    'speaker-name':
-        '王博',
-    'speaker-introduction':
-        '资深DDD实践者',
-    'speaker-information':
-    '<span class="bold-text">王博</span><br>' +
-    '资深程序员、软件工匠<br>' +
-    '独立咨询顾问，专注于大型系统软件的领域建模设计、重构及服务化架构设计等领域。' +
-    '曾先后在电信、云服务、自动驾驶等领域帮助客户进行微服务架构和领域驱动设计等工作，' +
-    '参与并指导过大规模的代码重构和架构落地等工作。',
-    'speaker-topic': '<span class = "bold-text">「DDD常见困难及解决之道」</span><br>' +
-    '做好领域驱动设计是有门槛的。作为一名软件技术咨询师，曾在不同行业、' +
-    '不同技术领域进行软件设计和开发工作，遇见过各种DDD在实施中的问题和困难。' +
-    '本议题将这些常见问题与困难进行整理，结合案例给出解决建议，帮助大家更好的' +
-    '使用DDD解决复杂问题。',
-    'speaker-outline': 'DDD技术发展简介<br>支撑DDD的软件开发方法和技能<br>复杂软件开发中使用DDD常见的问题与困难<br>' +
-    '<ul>' +
-    '<li>案例1：缺乏演进式设计能力的领域驱动设计</li>' +
-    '<li>案例2：贫血的领域驱动设计</li>' +
-    '<li>案例3：抽象不足的领域模型</li>' +
-    '<li>案例4：面向底层的、高性能软件的领域建模</li>' +
-    '</ul>'
-}, {
-    'speaker-img':
         '../resource/speakers/huangxiaohui.jpg',
     'speaker-name':
         '黄晓辉',
