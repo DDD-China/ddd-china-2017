@@ -492,7 +492,7 @@ a {
   text-align: center;
 }
 .workshop .content-container {
-  padding: 50px 200px;
+  padding: 50px 0;
 }
 .workshop .sub-title {
   color: red;
