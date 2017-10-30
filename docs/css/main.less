@@ -174,12 +174,22 @@ a {
   background-position-x: center;
   background-size: cover;
 
+  &.workshop {
+    background: @tw_red url("../resource/workshop-banner.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
   & .button {
     display: block;
     position: absolute;
     bottom: 20px;
     left: 50%;
     transform: translate(-50%, -50%);
+  }
+
+  & .button.workshop {
+    left: 20%;
   }
 }
 
@@ -616,4 +626,53 @@ a {
 
 .content-container {
   margin: auto;
+}
+
+.workshop {
+  text-align: center;
+
+  .content-container {
+    padding: 50px 200px;
+  }
+
+  .sub-title {
+    color: red;
+    font-size: 30px;
+  }
+
+  .img-left {
+    display: inline-block;
+    width: 340px;
+    height: 200px;
+    color: white;
+    background: cover;
+    background-repeat: no-repeat;
+    vertical-align: text-top;
+    margin-right: 30px;
+    
+    &.management {
+      background-image: url("../resource/conflict-management.png");
+    }
+
+    &.explore {
+      background-image: url("../resource/explore-d.png");      
+    }
+
+    &.design {
+      background-image: url("../resource/flow-design.png");
+    }
+  }
+
+  .content-right {
+    display: inline-block;
+    width: 400px;
+    vertical-align: text-top;
+    text-align: left;
+  }
+
+  .subTitle {
+    font-size: 30px;
+    line-height: 200px;
+    margin: 0;
+  }
 }
