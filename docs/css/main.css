@@ -77,6 +77,7 @@ a {
   height: 44px;
   padding: 0px 20px;
   float: right;
+  background-color: red;
 }
 #booking-ticket > a {
   text-decoration: none;
