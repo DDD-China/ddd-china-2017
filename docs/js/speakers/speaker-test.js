@@ -59,6 +59,28 @@ var speakers = [{
         </ul>
     `,
 }, {
+    'speaker-img':
+        '../resource/speakers/panjiayu.png',
+    'speaker-name':
+        '潘加宇',
+    'speaker-introduction':
+        'UMLChina 首席专家<br>UMLChina 创始人',
+    'speaker-information':
+    '<span class="bold-text">潘加宇</span><br>UMLChina创始人，潜心研究需求和设计技能。' +
+    '2002年开始对外提供UML需求和设计的技术指导和训练服务。到现在为止，已经上门为超过260家的组' +
+    '织提供服务，覆盖了国内各个领域的领袖企业，包括通信、企业管理、电子商务、房地产、网络游戏、' +
+    '地理信息、物流、数码设备、医疗设备、工业控制.....等领域。',
+    'speaker-topic':
+    '<span class = "bold-text">「复杂领域模型的建模」</span><br>' +
+    '一个反映领域内涵的领域模型是领域驱动设计成功的根本。目前许多有关领域驱动设计的探讨集中于如何实现领域驱动设计，' +
+    '所举例子的领域模型中涉及到的类的数量很少，导致有的开发人员虽然掌握了实现领域驱动设计的一些技能，却在面对量多' +
+    '而且复杂的领域概念和逻辑时，不知道如何下手来建立恰当的领域模型。本演讲介绍领域建模的一些关键要点，有助于改善这一现象。',
+    'speaker-outline':
+    '<ul>' +
+    '<li>建模要素讲解</li>' +
+    '<li>一个领域建模过程的案例展示</li>' +
+    '</ul>'
+}, {
     'speaker-img': '../resource/speakers/lixin.png',
     'speaker-name': '李新',
     'speaker-introduction': '骨灰级程序员',
@@ -408,7 +430,6 @@ var speakers = [{
     '整个测试体系目前在中兴通讯DevOps中发挥着重要作用，本次演讲还会对测试体系建设的不同阶段所面临的不同问题和相' +
     '应解决方案进行描述，相信能满足不同类型的听众。',
     'speaker-outline':
-    '' +
     '<ul>' +
     '<li>中兴通讯DevOps实践简介</li>' +
     '<li>传统的自动化测试介绍</li>' +
@@ -424,12 +445,11 @@ var speakers = [{
     'speaker-introduction':
         'ThoughtWorks资深咨询师，DDD实践布道者',
     'speaker-information':
-    '<span class="bold-text">黄亮</span><br>ThoughtWorks资深咨询师，DDD实践布道者，十三年应用开发与架构经验，热爱技术，喜欢Coding。专注于软件架构与持续交付领域，为不同领域的客户提供专业的技术改进与咨询服务，尤其擅长于JAVA技术栈与微服务架构。',
+        '<span class="bold-text">黄亮</span><br>ThoughtWorks资深咨询师，DDD实践布道者，十三年应用开发与架构经验，热爱技术，喜欢Coding。专注于软件架构与持续交付领域，为不同领域的客户提供专业的技术改进与咨询服务，尤其擅长于JAVA技术栈与微服务架构。',
     'speaker-topic':
     '<span class = "bold-text">「从OO到DDD」</span><br>' +
     '有人说DDD是OO的一个正确的作法，当我们实践DDD的过程中，很多OO问题依然会遇到，在本主题中，我们将带您探索OO本质，分析并解决DDD实践遇到的各种OO问题。',
     'speaker-outline':
-    '' +
     '<ul>' +
     '<li>OO本质</li>' +
     '<li>从OO到DDD</li>' +
@@ -443,12 +463,11 @@ var speakers = [{
     'speaker-introduction':
         '中国电子第六研究所前端负责人，CNode讲师，graphql.cn维护者',
     'speaker-information':
-    '<span class="bold-text">胡戎</span><br>中国电子第六研究所前端负责人，CNode讲师，graphql.cn维护者，负责多个大型航天项目',
+        '<span class="bold-text">胡戎</span><br>中国电子第六研究所前端负责人，CNode讲师，graphql.cn维护者，负责多个大型航天项目',
     'speaker-topic':
     '<span class = "bold-text">「领域驱动的FRP复合范式在复杂前端应用的实践」</span><br>' +
     '多数据源复杂应用中如何管理数据流，结合OOP和FRP的的复合范式构建大型的复杂应用程序。react redux rxjs采用redux基于OOP管理uiModal以及Domain Modal，根据FRP的编程思想通过RxJS设计并管理单向数据流。',
     'speaker-outline':
-    '' +
     '<ul>' +
     '<li>介绍OOP和FRP</li>' +
     '<li>介绍OOP和FRP在大型前端应用的技术选型</li>' +
