@@ -17,11 +17,13 @@
 ### 日程安排:
 
 **12月8日**<br>
-Workshop<br>
-TBA
+EventStorming Workshop<br>
+事件风暴工作坊
+<br>
 
 **12月9日**<br>
-Conference<br>
+Keynote & Session & Unconference
+<br>
 <br>
 <br>
 
