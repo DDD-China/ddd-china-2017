@@ -462,7 +462,6 @@ var speakers = [{
     '硕士毕业于西安交通大学，专注于新型编程模型的研究,',
     'speaker-topic':
     '<span class = "bold-text">「领域驱动与O2O电商的养成记」</span><br>' +
-    '多数据源复杂应用中如何管理数据流，结合OOP和FRP的的复合范式构建大型的复杂应用程序。react redux rxjs采用redux基于OOP管理uiM问题<br>' +
     '背景：猫眼需要搭建一套围绕影院的电子商务平台，引导用户在线上购买影院的各种服务，线下去消费服务<br>' +
     '解决方案选型：顶层架构使用领域驱动的思想建模，实现的技术栈包括nginx、thrift、kafka、octo、spring，jetty等<br><br>' +
     '方案介绍：<br>' +
@@ -591,7 +590,7 @@ var speakers = [{
     '</ul>'
 }, {
     'speaker-img':
-        '../resource/speakers/hurong.jpeg',
+        '../resource/speakers/fangang.jpg',
     'speaker-name':
         '范钢',
     'speaker-introduction':
