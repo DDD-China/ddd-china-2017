@@ -85,7 +85,7 @@ Keynote & Session & Unconference
   </tr>
   <tr>
     <th>10:30-11:00</th>
-    <td colspan="4" align="center"><b>KEYNOTE3: TBA</b><br>
+    <td colspan="4" align="center"><b>KEYNOTE3: 即将更新</b><br>
       <i>待定</i></td>
   </tr>
   <tr>
@@ -206,15 +206,15 @@ Keynote & Session & Unconference
     <th>17:00-18:30</th>
     <td colspan="2" align="center">
       从OO到DDD<br>
-      TBA<br>
-      TBA<br>
-      TBA
+      即将更新<br>
+      即将更新<br>
+      即将更新
 		</td>
     <td colspan="2" align="center">
       领域驱动的FRP复合范式在复杂前端应用的实践<br>
 	    DDD with functional programming paradiagm<br>
-      TBA<br>
-      TBA
+      即将更新<br>
+      即将更新
     </td>
   </tr>
   <tr>
