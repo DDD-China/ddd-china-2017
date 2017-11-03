@@ -98,8 +98,8 @@ Keynote & Session & Unconference
   <tr>
     <th>11:10-12:00</th>
     <td align="center">
-      <b>DDD——没那么难</b><br>
-      <i>滕云</i>
+      <b>基于模型的架构设计</b><br>
+      <i>金新明</i>
     </td>
     <td align="center">
       <b>Bounded Context的实践意义</b><br>
@@ -120,15 +120,14 @@ Keynote & Session & Unconference
   <tr>
     <th>13:30-14:20</th>
     <td align="center">
-      <b>DDD@盒马</b><br>
-      <i>张群辉</i></td>
-    <td align="center">
-      <b>DDD在测试体系建设的实践演进</b><br>
-      <i>张晔</i>
+      <b>DDD——没那么难</b><br>
+      <i>滕云</i>
     </td>
     <td align="center">
-      <b>领域驱动与O2O电商的养成记</b><br>
-      <i>王洋</i>
+      <b>微服务治理及监控</b><br>
+      <i>寇宇</i>
+    </td>
+    <td>
     </td>
     <td align="center">
       <b>领域驱动设计与Scrum项目管理</b><br>
@@ -142,31 +141,50 @@ Keynote & Session & Unconference
       <i>潘加宇</i>
     </td>
     <td align="center">
-      <b>微服务治理及监控</b><br>
-      <i>寇宇</i>
+      <b>微服务架构下CDI在领域驱动设计中的精妙应用</b><br>
+      <i>张建锋</i>
+    </td>
+    <td>
     </td>
     <td align="center">
-      <b>领域驱动:看我如何拥抱需求变更</b><br>
-      <i>范钢</i>
-    </td>
-    <td align="center">
-      <b>团队技术进阶之路 - 以DDD为切入点</b><br>
-      <i>黄晓辉</i>
+      <b>康威定律中的DDD-DDD架构与团队组织调整</b><br>
+      <i>丁辉</i>
     </td>
   </tr>
 
   <tr>
     <th>15:10-16:00</th>
     <td align="center">
-      <b>基于模型的架构设计</b><br>
-      <i>金新明</i>
+      <b>DDD分层架构的三种模式</b><br>
+      <i>张晓龙</i>
     </td>
     <td align="center">
-      <b>微服务架构下CDI在领域驱动设计中的精妙应用</b><br>
-      <i>张建锋</i>
+      <b>领域驱动:看我如何拥抱需求变更</b><br>
+      <i>范钢</i>
     </td>
     <td align="center">
-      TBA
+      <b>领域驱动与O2O电商的养成记</b><br>
+      <i>王洋</i>
+    </td>
+    <td align="center">
+      <b>团队技术进阶之路 - 以DDD为切入点</b><br>
+      <i>黄晓辉</i>
+    </td>    
+  </tr>
+
+  <tr>
+    <th>16:00-16:50</th>
+    <td align="center">
+      <b>DDD@盒马</b><br>
+      <i>张群辉</i>
+    </td>
+    <td align="center">
+      <b>微服务架构在企业应用云产品中实践</b><br>
+      <i>刘学斌</i>
+    </td>
+    <td align="center">
+      <b>DDD在测试体系建设的实践演进</b><br>
+      <i>张晔</i>
     </td>
     <td align="center">
       <b>领域驱动设计－创业公司治理</b><br>
@@ -175,32 +193,13 @@ Keynote & Session & Unconference
   </tr>
 
   <tr>
-    <th>16:00-16:50</th>
-    <td align="center">
-      <b>DDD分层架构的三种模式</b><br>
-      <i>张晓龙</i>
-    </td>
-    <td align="center">
-      <b>微服务架构在企业应用云产品中实践</b><br>
-      <i>刘学斌</i>
-    </td>
-    <td align="center">TBA</td>
-    <td align="center">
-      <b>康威定律中的DDD-DDD架构与团队组织调整</b><br>
-      <i>丁辉</i>
-    </td>
-  </tr>
-
-  <tr>
     <td align="center"><b>UN-CONFERENCE</b></td>
     <td colspan="2" align="center">
-      <b>TRACK1:<br>
-      领域驱动设计的代码实现</b>
+      <b>TRACK1:<br>领域驱动设计的代码实现</b>
     </td>
     <td colspan="2" align="center">
-      <b>TRACK2:<br>
-      领域驱动设计与函数式编程</b>
-      </td>
+      <b>TRACK2:<br>领域驱动设计与函数式编程</b>
+    </td>
   </tr>
 
   <tr>
