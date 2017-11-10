@@ -179,11 +179,11 @@ Keynote & Session & Unconference
       <i>张群辉</i>
     </td>
     <td align="center">
-      <b>微服务架构在企业应用云产品中实践</b><br>
+      <b>DDD在微服务架构企业云产品中的实践</b><br>
       <i>刘学斌</i>
     </td>
     <td align="center">
-      <b>DDD在测试体系建设的实践演进</b><br>
+      <b>DDD驱动测试体系建设</b><br>
       <i>张晔</i>
     </td>
     <td align="center">
