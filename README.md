@@ -206,7 +206,7 @@ Keynote & Session & Unconference
     <th>17:00-18:30</th>
     <td colspan="2" align="center">
       从OO到DDD<br>
-      即将更新<br>
+      “事项跟踪”项目的DDD实现<br>
       即将更新<br>
       即将更新
 		</td>
