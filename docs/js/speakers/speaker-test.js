@@ -649,5 +649,34 @@ var speakers = [{
     '<li>DDD 和基于模型的软件开发</li>' +
     '<li>DDD和DevOps, MicroSevice</li>' +
     '</ul>'
+}, {
+    'speaker-img':
+        '../resource/speakers/wangli.jpg',
+    'speaker-name':
+        '王立',
+    'speaker-introduction':
+        '厦门云雾科技有限公司创始人/总经理',
+    'speaker-information':
+    '<span class="bold-text">王立</span><br>前阿里资深工程师，国内最早一批实践和推广DDD的践行者，' +
+    '建立了一套适用于DDD的敏捷开发过程，长期聚焦于领域分析、彩色UML建模，擅长复杂业务的模型提炼与架构设计，' +
+    '主张在聚合的实现在可以采用微单体时就尽量不要采用微服务，现任厦门云雾科技有限公司创始人/总经理。',
+    'speaker-topic':
+    '<span class = "bold-text">「“事项跟踪”项目的DDD实现」</span><br>' +
+    '事项跟踪管理是一个公司内部应用，解决各个部门主管对下属工作的安排与跟踪问题，项目采用DDD开发，' +
+    '每个事项以及内部任务状态的流转“自治”，并根据状态与操作者角色提供操作入口，项目极其短小精悍，' +
+    '深入浅出，可以简明扼要地把DDD实践中的采用的基本思想、套路、实践模式解释清楚，经验具有普遍性和' +
+    '可复制性，非常适用于初步接触DDD的开发团队学习。',
+    'speaker-outline':
+    '<ul>' +
+    '<li>项目背景</li>' +
+    '<li>业务分析</li>' +
+    '<li>架构设计</li>' +
+    '<li>领域实现</li>' +
+    '<li>状态管理</li>' +
+    '<li>持久层与缓存</li>' +
+    '<li>读写分离</li>' +
+    '<li>性能优化</li>' +
+    '<li>总结</li>' +
+    '</ul>'
 }
 ]
