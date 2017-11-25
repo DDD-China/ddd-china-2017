@@ -117,36 +117,40 @@ Keynote & Session & Unconference
   <tr>
     <td colspan="5" align="center">午餐</td>
   </tr>
-  <tr>
+  <tr align="center">
     <th>13:30-14:20</th>
-    <td align="center">
+    <td>
       <b>DDD——没那么难</b><br>
       <i>滕云</i>
     </td>
-    <td align="center">
+    <td>
       <b>微服务治理及监控</b><br>
       <i>寇宇</i>
     </td>
     <td>
+      <b>新业务背景下业务与系统的共同演进</b><br>
+      <i>余丹妮</i>
     </td>
-    <td align="center">
+    <td>
       <b>领域驱动设计与Scrum项目管理</b><br>
       <i>周雪峰</i></td>
   </tr>
 
-  <tr>
+  <tr align="center">
     <th>14:20-15:10</th>
-    <td align="center">
+    <td>
       <b>复杂领域模型的建模</b><br>
       <i>潘加宇</i>
     </td>
-    <td align="center">
+    <td>
       <b>微服务架构下CDI在领域驱动设计中的精妙应用</b><br>
       <i>张建锋</i>
     </td>
     <td>
+      <b>领域驱动：看我如何拥抱需求变更</b><br>
+      <i>范钢</i>
     </td>
-    <td align="center">
+    <td>
       <b>康威定律中的DDD-DDD架构与团队组织调整</b><br>
       <i>丁辉</i>
     </td>
@@ -159,8 +163,8 @@ Keynote & Session & Unconference
       <i>张晓龙</i>
     </td>
     <td align="center">
-      <b>领域驱动:看我如何拥抱需求变更</b><br>
-      <i>范钢</i>
+      <b>基于Domain、Use Case与Aspect思维的端到端可变化设计</b><br>
+      <i>黄邦伟</i>
     </td>
     <td align="center">
       <b>领域驱动与O2O电商的养成记</b><br>
@@ -206,9 +210,9 @@ Keynote & Session & Unconference
     <th>17:00-18:30</th>
     <td colspan="2" align="center">
       从OO到DDD<br>
-      “事项跟踪”项目的DDD实现<br>
-      即将更新<br>
-      即将更新
+      DDD实践中的一些思考<br>
+      使用领域事件来解耦多任务间的依赖<br>
+      软件架构如何支持领域驱动与架构演进
 		</td>
     <td colspan="2" align="center">
       领域驱动的FRP复合范式在复杂前端应用的实践<br>
