@@ -209,16 +209,16 @@ Keynote & Session & Unconference
   <tr>
     <th>17:00-18:30</th>
     <td colspan="2" align="center">
-      从OO到DDD<br>
-      DDD实践中的一些思考<br>
-      使用领域事件来解耦多任务间的依赖<br>
-      软件架构如何支持领域驱动与架构演进
+      从OO到DDD 黄亮<br>
+      DDD实践中的一些思考 王立<br>
+      使用领域事件来解耦多任务间的依赖 张晓龙<br>
+      软件架构如何支持领域驱动与架构演进 范钢
 		</td>
     <td colspan="2" align="center">
-      领域驱动的FRP复合范式在复杂前端应用的实践<br>
-	    DDD with functional programming paradiagm<br>
-      即将更新<br>
-      即将更新
+      领域驱动的FRP复合范式在复杂前端应用的实践 胡戎<br>
+	    DDD with functional programming paradiagm 陈炜翔<br>
+      用函数式思维理解DDD 吴雪峰<br>
+      DDD是一种纪律 杨云
     </td>
   </tr>
   <tr>
