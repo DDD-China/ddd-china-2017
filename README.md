@@ -216,7 +216,7 @@ Keynote & Session & Unconference
 		</td>
     <td colspan="2" align="center">
       领域驱动的FRP复合范式在复杂前端应用的实践 <i>胡戎</i><br>
-	    DDD with functional programming paradiagm <i>陈炜翔</i><br>
+	    DDD with functional programming paradiagm <i>林炜翔</i><br>
       用函数式思维理解DDD <i>吴雪峰</i><br>
       DDD是一种纪律 <i>杨云</i>
     </td>
