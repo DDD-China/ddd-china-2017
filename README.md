@@ -85,8 +85,8 @@ Keynote & Session & Unconference
   </tr>
   <tr>
     <th>10:30-11:00</th>
-    <td colspan="4" align="center"><b>KEYNOTE3: 即将更新</b><br>
-      <i>待定</i></td>
+    <td colspan="4" align="center"><b>KEYNOTE3: 领域驱动设计（DDD）与微服务：模式与实践</b><br>
+      <i>董乃文</i></td>
   </tr>
   <tr>
     <th>SESSION</th>

@@ -687,10 +687,10 @@ var speakers = [{
         `有多年IT咨询界的经验，涉及零售，政府，媒体，金融，医疗等多个行业，
         曾担任年轻女学生科技创业项目的导师。目前为美国某电商提供咨询交付服务。`,
     'speaker-information':
-    `<span class="bold-text">余丹妮</span><br>有多年IT咨询界的经验，涉及零售，政府，媒体，金融，医疗等多个行业，
+        `<span class="bold-text">余丹妮</span><br>有多年IT咨询界的经验，涉及零售，政府，媒体，金融，医疗等多个行业，
     曾担任年轻女学生科技创业项目的导师。目前为美国某电商提供咨询交付服务。`,
     'speaker-topic':
-    `<span class = "bold-text">「新业务背景下业务与系统的共同演进」</span><br>
+        `<span class = "bold-text">「新业务背景下业务与系统的共同演进」</span><br>
     领域驱动设计强调以业务为核心，对业务领域进行抽象和建模。我们在做大多数领域建模活动时假设了一个前提条件，
     就是业务本身是清晰和确定的，并且有业务专家可以解答领域相关的疑问。<br>
     然而最近我们看到企业越来越多采用精益的方法来开展新业务，在有业务目标和初步业务概念的前提下进行各种试验来确定，
@@ -714,12 +714,12 @@ var speakers = [{
         从2000年开始提供面向对象、领域划分、可变化设计、以及产品线工程的咨询。
         客户包括三星（韩国）、索尼（日本）、华为（中国）、等其他企业。`,
     'speaker-information':
-    `<span class="bold-text">黄邦伟</span><br>
+        `<span class="bold-text">黄邦伟</span><br>
     2004《基于用例的面向方面的软件开发》与2012《软件工程的本质》的作者。<br>
     从2000年开始提供面向对象、领域划分、可变化设计、以及产品线工程的咨询。<br>
     客户包括三星（韩国）、索尼（日本）、华为（中国）、等其他企业。`,
     'speaker-topic':
-    `<span class = "bold-text">「基于Domain、Use Case与Aspect思维的端到端可变化设计」</span><br>
+        `<span class = "bold-text">「基于Domain、Use Case与Aspect思维的端到端可变化设计」</span><br>
     软件开发其中最头疼的问题之一是如何应对需求的变化，减少系统的耦合。大部分软件设计方法都是从0到1，领域驱动设计也不例外。
     Aspect思维就围绕着N+1，extension的设计方法，以便应对需求时间和空间的变化（variability in time and space）。
     另外，Use Case思维把可变化性从设计前移到需求的划分，让你更早更有效的处理变化。
@@ -730,6 +730,75 @@ var speakers = [{
     '<li>领域划分可变化设计从需求开始</li>' +
     '<li>建立可扩展的需求架构</li>' +
     '<li>端到端可变化设计</li>' +
+    '</ul>'
+}, {
+    'speaker-img':
+        '../resource/speakers/yangyun.jpeg',
+    'speaker-name':
+        '杨云',
+    'speaker-introduction':
+        'ThoughtWorks首席咨询师',
+    'speaker-information':
+    '<span class="bold-text">杨云</span><br>20年软件开发经验，一直从事技术工作，ThoughtWorks首席咨询师，' +
+    '曾任支付宝架构师。 对函数式编程关注多年，在多个生产项目中实际使用Scala编程语言开发。 2011年建立的Haskell' +
+    '函数式编程群可能是国内历史最长，人数最多的函数式编程讨论群。',
+    'speaker-topic':
+    '<span class = "bold-text">「DDD是一种纪律」</span><br>' +
+    'DDD是一种模型驱动的软件设计方法，其难点不在于项目前期的大块的软件建模，而在于在软件持续更新的过程中保持模型' +
+    '和代码的一致。现在主流的函数式编程语言，比如Scala和Haskell的类型系统具有很强的建模能力和表意能力，有助于以' +
+    '较小的代价维持模型代码一致，甚至将更多的模型内容体现在代码中。',
+    'speaker-outline':
+    '<ul>' +
+    '<li>了解如何在实际项目中因地制宜的采取一些力所能及的DDD技术。</li>' +
+    '<li>对函数式编程和DDD的结合取得一定认识。</li>' +
+    '</ul>'
+}, {
+    'speaker-img':
+        '../resource/speakers/wuxuefeng.png',
+    'speaker-name':
+        '吴雪峰',
+    'speaker-introduction':
+        'ThoughtWorks软件架构师',
+    'speaker-information':
+    '<span class="bold-text">吴雪峰</span><br>主要负责敏捷软件开发与软件架构设计。他具有10+年软件架构设计经验，' +
+    '从事于分布式系统、电子商务、医疗、电信行业的软件开发、架构设计及敏捷实践。擅长Java/Scala技术，DDD、微服务架构、' +
+    'Reactive分布式软件架构、DevOps以及精益实践。',
+    'speaker-topic':
+    '<span class = "bold-text">「用函数式思想理解DDD」</span><br>' +
+    '函数式编程和DDD都是最近热门的趋势，并且都不容易理解。通过一个小例子讨论用两个热门趋势的概念碰撞产生火花，' +
+    '使得参会快速理解函数式和DDD思想的精髓。',
+    'speaker-outline':
+    '<ul>' +
+    '<li>类型建模 vs 数据库建模</li>' +
+    '<li>函数和管道 vs 工作流</li>' +
+    '<li>业务领域语言 DSL</li>' +
+    '<li>重新理解聚合和边界上下文</li>' +
+    '</ul>'
+}, {
+    'speaker-img':
+        '../resource/speakers/dongnaiwen.jpg',
+    'speaker-name':
+        '董乃文',
+    'speaker-introduction':
+    '微软(中国)有限公司<br>' +
+    '首席技术顾问',
+    'speaker-information':
+    '<span class="bold-text">董乃文</span><br>现任微软（中国）有限公司首席技术顾问，20多年的计算机软件行业工作经验，' +
+    '积极推动云计算、大数据、人工智能等创新技术在制造业、零售业、新媒体、在线游戏等行业的技术推广与合作。作为标准化专家工作' +
+    '组成员参加多个云计算、大数据、SOA等国家技术标准的制定工作。曾负责多个ERP、CRM等软件产品的设计和研发工作，积极推动新开' +
+    '发方法和自动化工具在大规模产品研发团队的运用，特别是领域工程、架构设计、软件产品线、集成产品开发、敏捷开发等模式的深入' +
+    '实践，曾任北京软件行业协会软件过程改进协会秘书处副秘书长等积极推动创新开发方法和技术的社区共享。',
+    'speaker-topic':
+    '<span class = "bold-text">「领域驱动设计（DDD）与微服务：模式与实践」</span><br>' +
+    'Domain-driven design (DDD) & Microservices: patterns and practices<br>' +
+    '基于微服务（Microservices）的体系结构中，应用程序在可独立开发、测试、部署和版本控制的一系列服务上生成，开发者可以设' +
+    '计出全天候高可用的云规模应用及服务，部署在本地数据中心和云端，便捷地缩放应用的规模，在持续运行中实现无缝衔接的敏捷开发' +
+    '和全生命周期管理。使用面向领域驱动设计的模式，可以降低微服务中的业务复杂性，实现的更高级的微服务。',
+    'speaker-outline':
+    '<ul>' +
+    '<li>微服务（Microservices）体系结构</li>' +
+    '<li>领域驱动设计与微服务的关键模式</li>' +
+    '<li>应用DDD微服务打造端到端应用的参考案例与分享</li>' +
     '</ul>'
 }
 ]
