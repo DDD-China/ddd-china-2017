@@ -739,7 +739,7 @@ var speakers = [{
     'speaker-introduction':
         'ThoughtWorks首席咨询师',
     'speaker-information':
-    '<span class="bold-text">杨云</span><br>20年软件开发经验，一直从事技术工作，ThoughtWorks首席咨询师，' +
+    '<span class="bold-text">杨云</span><br><span class="bold-text">ThoughtWorks首席咨询师</span><br>20年软件开发经验，一直从事技术工作，ThoughtWorks首席咨询师，' +
     '曾任支付宝架构师。 对函数式编程关注多年，在多个生产项目中实际使用Scala编程语言开发。 2011年建立的Haskell' +
     '函数式编程群可能是国内历史最长，人数最多的函数式编程讨论群。',
     'speaker-topic':
@@ -760,7 +760,7 @@ var speakers = [{
     'speaker-introduction':
         'ThoughtWorks软件架构师',
     'speaker-information':
-    '<span class="bold-text">吴雪峰</span><br>主要负责敏捷软件开发与软件架构设计。他具有10+年软件架构设计经验，' +
+    '<span class="bold-text">吴雪峰</span><br><span class="bold-text">ThoughtWorks软件架构师</span><br>主要负责敏捷软件开发与软件架构设计。他具有10+年软件架构设计经验，' +
     '从事于分布式系统、电子商务、医疗、电信行业的软件开发、架构设计及敏捷实践。擅长Java/Scala技术，DDD、微服务架构、' +
     'Reactive分布式软件架构、DevOps以及精益实践。',
     'speaker-topic':
